@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Button, Img, Text } from "components";
 
@@ -8,11 +9,11 @@ const Header = (props) => {
       <header className={props.className}>
         <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between max-w-[1264px] w-full">
           <div className="flex flex-col items-start justify-center w-60">
-            <Img
+          <Link to="/"><Img
               className="h-[60px] md:h-auto object-cover w-[103px] sm:w-full"
               src="images/img_denlogoprode.png"
               alt="denlogoprode"
-            />
+            /></Link>
           </div>
           <div className="flex flex-1 sm:flex-col flex-row gap-2 items-start justify-center w-full">
             <div className="flex flex-col items-center justify-center sm:px-5 px-6 py-3 w-auto">
@@ -20,7 +21,7 @@ const Header = (props) => {
                 className="text-base text-gray-900 w-auto"
                 size="txtInterMedium16Gray900"
               >
-                Why CloudScore
+                <Link to="/whycs">Why CloudScore</Link>
               </Text>
             </div>
             <div className="flex flex-col items-center justify-center sm:px-5 px-6 py-3 w-auto">
@@ -28,7 +29,7 @@ const Header = (props) => {
                 className="text-base text-gray-900 w-auto"
                 size="txtInterMedium16Gray900"
               >
-                Solutions
+                <Link to="/solutions">Solutions</Link>
               </Text>
             </div>
             <div className="flex flex-col items-center justify-center sm:px-5 px-6 py-3 w-auto">
@@ -36,7 +37,7 @@ const Header = (props) => {
                 className="text-base text-gray-900 w-auto"
                 size="txtInterMedium16Gray900"
               >
-                About
+                <Link to="/aboutus">About</Link>
               </Text>
             </div>
             <div className="flex flex-col items-center justify-center sm:px-5 px-6 py-3 w-auto">
@@ -44,7 +45,7 @@ const Header = (props) => {
                 className="text-base text-gray-900 w-auto"
                 size="txtInterMedium16Gray900"
               >
-                Blog
+                <Link to="/blog">Blog</Link>
               </Text>
             </div>
           </div>
