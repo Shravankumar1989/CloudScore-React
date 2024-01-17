@@ -2,8 +2,8 @@ import React from "react";
 
 import { Button, Img, SelectBox, Text } from "components";
 import Header from "components/Header";
-import Home1439768Column from "components/Home1439768Column";
-import Home1439768ColumnlanguageThree from "components/Home1439768ColumnlanguageThree";
+import HomeColumn from "components/HomeColumn";
+import HomeColumnlanguageThree from "components/HomeColumnlanguageThree";
 
 const dropdownOptionsList = [
   { label: "Option1", value: "option1" },
@@ -11,8 +11,8 @@ const dropdownOptionsList = [
   { label: "Option3", value: "option3" },
 ];
 
-const WhyCS1439768Page = () => {
-  const home1439768ColumnPropList = [
+const WhyCSPage = () => {
+  const homeColumnPropList = [
     {},
     { mariotext: "|", firstname: "Last Name" },
     { mariotext: "mario.papa@gmail.com", firstname: "Work Email" },
@@ -743,16 +743,16 @@ const WhyCS1439768Page = () => {
                 </div>
                 <div className="flex flex-1 flex-col gap-10 h-full items-start justify-start py-[60px] w-full">
                   <div className="md:gap-5 gap-[90px] grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
-                    {home1439768ColumnPropList.map((props, index) => (
-                      <React.Fragment key={`Home1439768Column${index}`}>
-                        <Home1439768Column
+                    {homeColumnPropList.map((props, index) => (
+                      <React.Fragment key={`HomeColumn${index}`}>
+                        <HomeColumn
                           className="border-b border-blue_gray-100 border-solid flex flex-1 flex-col items-start justify-start w-full"
                           {...props}
                         />
                       </React.Fragment>
                     ))}
                   </div>
-                  <Home1439768ColumnlanguageThree className="border-b border-blue_gray-100 border-solid flex flex-col items-start justify-start w-full" />
+                  <HomeColumnlanguageThree className="border-b border-blue_gray-100 border-solid flex flex-col items-start justify-start w-full" />
                   <Button
                     className="cursor-pointer font-semibold min-w-[147px] text-base text-center"
                     shape="round"
@@ -772,4 +772,4 @@ const WhyCS1439768Page = () => {
   );
 };
 
-export default WhyCS1439768Page;
+export default WhyCSPage;

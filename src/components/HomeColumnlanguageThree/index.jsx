@@ -2,7 +2,7 @@ import React from "react";
 
 import { Text } from "components";
 
-const Home1439768ColumnlanguageThree = (props) => {
+const HomeColumnlanguageThree = (props) => {
   return (
     <>
       <div className={props.className}>
@@ -27,9 +27,9 @@ const Home1439768ColumnlanguageThree = (props) => {
   );
 };
 
-Home1439768ColumnlanguageThree.defaultProps = {
+HomeColumnlanguageThree.defaultProps = {
   languageThree: "Message ",
   messagetext: "Write your message..",
 };
 
-export default Home1439768ColumnlanguageThree;
+export default HomeColumnlanguageThree;

@@ -4,7 +4,7 @@ import { Button, Img, List, Text } from "components";
 import Footer from "components/Footer";
 import Header from "components/Header";
 
-const AboutUs1439768Page = () => {
+const AboutUsPage = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full">
@@ -434,4 +434,4 @@ const AboutUs1439768Page = () => {
   );
 };
 
-export default AboutUs1439768Page;
+export default AboutUsPage;

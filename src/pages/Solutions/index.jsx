@@ -3,11 +3,11 @@ import React from "react";
 import { Button, FloatingInput, Img, Line, List, Text } from "components";
 import Footer from "components/Footer";
 import Header from "components/Header";
-import Home1439768Column from "components/Home1439768Column";
-import Home1439768ColumnlanguageThree from "components/Home1439768ColumnlanguageThree";
+import HomeColumn from "components/HomeColumn";
+import HomeColumnlanguageThree from "components/HomeColumnlanguageThree";
 
-const Solutions1439768Page = () => {
-  const home1439768ColumnPropList = [
+const SolutionsPage = () => {
+  const homeColumnPropList = [
     {},
     { mariotext: "|", firstname: "Last Name" },
     { mariotext: "mario.papa@gmail.com", firstname: "Work Email" },
@@ -845,16 +845,16 @@ const Solutions1439768Page = () => {
                 </div>
                 <div className="flex flex-1 flex-col gap-10 h-full items-start justify-start py-[60px] w-full">
                   <div className="md:gap-5 gap-[90px] grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
-                    {home1439768ColumnPropList.map((props, index) => (
-                      <React.Fragment key={`Home1439768Column${index}`}>
-                        <Home1439768Column
+                    {homeColumnPropList.map((props, index) => (
+                      <React.Fragment key={`HomeColumn${index}`}>
+                        <HomeColumn
                           className="border-b border-blue_gray-100 border-solid flex flex-1 flex-col items-start justify-start w-full"
                           {...props}
                         />
                       </React.Fragment>
                     ))}
                   </div>
-                  <Home1439768ColumnlanguageThree className="border-b border-blue_gray-100 border-solid flex flex-col items-start justify-start w-full" />
+                  <HomeColumnlanguageThree className="border-b border-blue_gray-100 border-solid flex flex-col items-start justify-start w-full" />
                   <Button
                     className="cursor-pointer font-semibold min-w-[147px] text-base text-center"
                     shape="round"
@@ -875,4 +875,4 @@ const Solutions1439768Page = () => {
   );
 };
 
-export default Solutions1439768Page;
+export default SolutionsPage;

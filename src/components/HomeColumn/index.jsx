@@ -2,7 +2,7 @@ import React from "react";
 
 import { Text } from "components";
 
-const Home1439768Column = (props) => {
+const HomeColumn = (props) => {
   return (
     <>
       <div className={props.className}>
@@ -33,9 +33,9 @@ const Home1439768Column = (props) => {
   );
 };
 
-Home1439768Column.defaultProps = {
+HomeColumn.defaultProps = {
   firstname: "First Name",
   mariotext: "Mario",
 };
 
-export default Home1439768Column;
+export default HomeColumn;
