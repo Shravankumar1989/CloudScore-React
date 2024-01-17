@@ -7,7 +7,7 @@ const Header = (props) => {
   return (
     <>
       <header className={props.className}>
-        <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between max-w-[1264px] w-full">
+        <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between max-w-[1440px] w-full">
           <div className="flex flex-col items-start justify-center w-60">
           <Link to="/"><Img
               className="h-[60px] md:h-auto object-cover w-[103px] sm:w-full"

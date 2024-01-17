@@ -38,7 +38,7 @@ const BlogPage = () => {
         <div className="font-roboto h-[3229px] mt-[86px] md:px-5 relative w-full">
           <div className="flex flex-col font-inter items-center justify-start mb-[-566px] mx-auto w-auto md:w-full z-[1]">
             <div className="h-[1414px] md:h-[2164px] sm:h-[2432px] relative w-full">
-              <div className="absolute flex flex-col inset-x-[0] items-end justify-start max-w-[1264px] mx-auto top-[0] w-full">
+              <div className="absolute flex flex-col inset-x-[0] items-end justify-start max-w-[1440px] mx-auto top-[0] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
                     <Text
@@ -254,7 +254,7 @@ const BlogPage = () => {
                 </Text>
               </div>
             </div>
-            <div className="bg-blue-A700 flex flex-col gap-8 items-center justify-start max-w-[1264px] py-20 rounded-lg w-full">
+            <div className="bg-blue-A700 flex flex-col gap-8 items-center justify-start max-w-[1440px] py-20 rounded-lg w-full">
               <Text
                 className="sm:text-4xl md:text-[38px] text-[40px] text-center text-white-A700 w-auto"
                 size="txtInterBold40"
@@ -289,7 +289,7 @@ const BlogPage = () => {
               </div>
             </div>
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
-              <div className="flex flex-col items-end justify-start max-w-[1264px] w-full">
+              <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
                     <Text
@@ -307,8 +307,8 @@ const BlogPage = () => {
                   </Text>
                 </div>
               </div>
-              <div className="bg-gray-50 border border-gray-300 border-solid flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-start max-w-[1264px] md:pr-10 sm:pr-5 pr-[60px] rounded-lg shadow-bs3 w-full">
-                <div className="bg-blue-A700 flex flex-col h-[519px] md:h-auto items-start justify-between p-10 sm:px-5 rounded-bl-lg rounded-tl-lg">
+              <div className="bg-gray-50 border border-gray-300 border-solid flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-start max-w-[1440px] md:pr-10 sm:pr-5 pr-[60px] rounded-lg shadow-bs3 w-full">
+                <div className="bg-blue-A700 flex flex-col h-[590px] md:h-auto items-start justify-between p-10 sm:px-5 rounded-bl-lg rounded-tl-lg" style={{zIndex: '1'}}>
                   <div className="flex flex-col h-[408px] md:h-auto items-start justify-between w-full">
                     <div className="flex flex-col items-start justify-start w-auto">
                       <Text
@@ -343,6 +343,7 @@ const BlogPage = () => {
                     color="blue_A700"
                     size="sm"
                     variant="fill"
+                    style={{zIndex: '1'}}
                   >
                     Get the Demo
                   </Button>

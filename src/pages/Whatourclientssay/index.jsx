@@ -7,7 +7,7 @@ const WhatourclientssayPage = () => {
     <>
       <div className="bg-white-A700 flex flex-col font-inter sm:gap-10 md:gap-10 gap-20 items-center justify-start mx-auto overflow-auto py-[120px] w-auto sm:w-full md:w-full">
         <div className="flex flex-col items-center md:px-5 px-[88px] w-full">
-          <div className="flex flex-col items-end justify-start max-w-[1264px] w-full">
+          <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
             <div className="flex flex-col gap-8 items-center justify-center w-full">
               <div className="flex flex-col items-center justify-center w-full">
                 <Text

@@ -367,7 +367,7 @@ const HomePage = () => {
             <div className="bg-white-A700 border border-gray-300 border-solid flex flex-col items-center justify-start pb-[106px] rounded-bl-[40px] rounded-br-[40px] shadow-bs2 w-full">
               <div className="flex flex-col md:gap-10 gap-[68px] items-center justify-start w-full">
                 <Header className="flex flex-col gap-2 items-center justify-center px-2 py-8 w-full" />
-                <div className="flex md:flex-col flex-row gap-8 items-end justify-start max-w-[1264px] w-full">
+                <div className="flex md:flex-col flex-row gap-8 items-end justify-start max-w-[1440px] w-full">
                   <div className="flex md:flex-1 flex-col gap-8 items-start justify-end w-auto md:w-full">
                     <div className="flex flex-row gap-2 items-center justify-start w-full">
                       <Img
@@ -412,7 +412,7 @@ const HomePage = () => {
         <div className="font-roboto h-[8121px] mt-[5px] md:px-5 relative w-full">
           <div className="flex flex-col font-inter items-center justify-start mb-[-539px] mx-auto w-auto md:w-full z-[1]">
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
-              <div className="flex flex-col items-center justify-center max-w-[1264px] w-full">
+              <div className="flex flex-col items-center justify-center max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
                     <Text
@@ -546,7 +546,7 @@ const HomePage = () => {
               </List>
             </div>
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
-              <div className="flex flex-col items-center justify-center max-w-[1264px] w-full">
+              <div className="flex flex-col items-center justify-center max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
                     <Text
@@ -564,7 +564,7 @@ const HomePage = () => {
                   </Text>
                 </div>
               </div>
-              <div className="flex md:flex-col flex-row md:gap-10 gap-[140px] items-center justify-start max-w-[1264px] w-full">
+              <div className="flex md:flex-col flex-row md:gap-10 gap-[140px] items-center justify-start max-w-[1440px] w-full">
                 <Img
                   className="md:flex-1 h-[530px] sm:h-auto object-cover rounded-lg w-[508px] md:w-full"
                   src="images/img_rectangle40308.png"
@@ -603,7 +603,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-start md:px-10 sm:px-5 px-[88px] py-[120px] w-auto md:w-full">
-              <div className="flex flex-col items-end justify-start max-w-[1264px] w-full">
+              <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-full">
                     <Text
@@ -621,7 +621,7 @@ const HomePage = () => {
                   </Text>
                 </div>
               </div>
-              <div className="flex flex-col md:gap-10 gap-20 items-start justify-start max-w-[1264px] w-full">
+              <div className="flex flex-col md:gap-10 gap-20 items-start justify-start max-w-[1440px] w-full">
                 <div className="flex md:flex-col flex-row md:gap-10 gap-[120px] items-center justify-center w-full">
                   <div className="flex sm:flex-1 flex-col md:gap-10 gap-[60px] items-start justify-start w-[527px] sm:w-full">
                     <Text
@@ -646,7 +646,7 @@ const HomePage = () => {
                     alt="group1000004155"
                   />
                 </div>
-                <div className="flex md:flex-col flex-row md:gap-10 gap-[120px] items-center justify-center max-w-[1264px] w-full">
+                <div className="flex md:flex-col flex-row md:gap-10 gap-[120px] items-center justify-center max-w-[1440px] w-full">
                   <div className="bg-gray-50 border border-gray-200_01 border-solid h-[400px] md:h-auto p-8 sm:px-5 relative rounded-lg w-[400px] sm:w-full">
                     <div className="absolute flex flex-col inset-x-[0] items-center justify-start mx-auto top-[8%] w-[82%] md:w-full">
                       <div className="flex flex-row items-start justify-evenly w-full">
@@ -738,7 +738,7 @@ const HomePage = () => {
                     </Text>
                   </div>
                 </div>
-                <div className="flex md:flex-col flex-row md:gap-10 gap-[120px] items-center justify-center max-w-[1264px] w-full">
+                <div className="flex md:flex-col flex-row md:gap-10 gap-[120px] items-center justify-center max-w-[1440px] w-full">
                   <div className="flex sm:flex-1 flex-col md:gap-10 gap-[60px] items-start justify-start w-[527px] sm:w-full">
                     <Text
                       className="leading-[56.00px] max-w-[527px] md:max-w-full sm:text-4xl md:text-[38px] text-[40px] text-black-900_01"
@@ -869,7 +869,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="flex flex-col items-center justify-start max-w-[1440px] py-[120px] w-full">
-              <div className="bg-blue-A700 flex flex-col items-start justify-start max-w-[1264px] md:px-10 sm:px-5 px-[88px] py-[120px] rounded-lg w-full">
+              <div className="bg-blue-A700 flex flex-col items-start justify-start max-w-[1440px] md:px-10 sm:px-5 px-[88px] py-[120px] rounded-lg w-full">
                 <div className="relative w-full">
                   <Text
                     className="leading-[48.00px] max-w-[1088px] md:max-w-full mx-auto sm:text-4xl md:text-[38px] text-[40px] text-white-A700 tracking-[-0.40px]"
@@ -898,7 +898,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-start overflow-auto py-[120px] w-auto md:w-full">
-              <div className="flex flex-col items-end justify-start max-w-[1264px] w-full">
+              <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-full">
                     <Text
@@ -1040,7 +1040,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
-              <div className="flex flex-col items-end justify-start max-w-[1264px] w-full">
+              <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-full">
                     <Text
@@ -1180,7 +1180,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
-              <div className="flex flex-col items-end justify-start max-w-[1264px] w-full">
+              <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
                     <Text
@@ -1292,7 +1292,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
-              <div className="flex flex-col items-end justify-start max-w-[1264px] w-full">
+              <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
                     <Text
@@ -1310,8 +1310,8 @@ const HomePage = () => {
                   </Text>
                 </div>
               </div>
-              <div className="bg-gray-50 border border-gray-300 border-solid flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-start max-w-[1264px] md:pr-10 sm:pr-5 pr-[60px] rounded-lg shadow-bs3 w-full">
-                <div className="bg-blue-A700 flex flex-col h-[519px] md:h-auto items-start justify-between p-10 sm:px-5 rounded-bl-lg rounded-tl-lg">
+              <div className="bg-gray-50 border border-gray-300 border-solid flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-start max-w-[1440px] md:pr-10 sm:pr-5 pr-[60px] rounded-lg shadow-bs3 w-full">
+                <div className="bg-blue-A700 flex flex-col h-[590px] md:h-auto items-start justify-between p-10 sm:px-5 rounded-bl-lg rounded-tl-lg" style={{zIndex: '1'}}>
                   <div className="flex flex-col h-[408px] md:h-auto items-start justify-between w-full">
                     <div className="flex flex-col items-start justify-start w-auto">
                       <Text
@@ -1361,7 +1361,7 @@ const HomePage = () => {
                 alt="numcloudOne"
               />
               <div className="absolute bg-black-900 bottom-[0] flex flex-col inset-x-[0] items-center justify-center max-w-[1440px] mx-auto w-full">
-                <div className="flex flex-col items-start justify-start max-w-[1264px] w-full">
+                <div className="flex flex-col items-start justify-start max-w-[1440px] w-full">
                   <div className="flex md:flex-col flex-row md:gap-10 gap-[152.1px] items-start justify-between pt-[120px] w-full">
                     <div className="flex flex-1 flex-col h-full items-start justify-start w-full">
                       <div className="flex flex-col gap-6 items-start justify-start w-auto">

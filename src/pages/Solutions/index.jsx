@@ -56,7 +56,7 @@ const SolutionsPage = () => {
             </Button>
           </div>
         </div>
-        <div className="h-[457px] md:h-[471px] sm:h-[940px] max-w-[1264px] mt-[27px] mx-auto md:px-5 relative w-full">
+        <div className="h-[457px] md:h-[471px] sm:h-[940px] max-w-[1440px] mt-[27px] mx-auto md:px-5 relative w-full">
           <div
             className="absolute bg-cover bg-no-repeat flex flex-col h-max inset-[0] items-start justify-center m-auto sm:px-5 px-[37px] w-[58%]"
             style={{ backgroundImage: "url('images/img_group2.svg')" }}
@@ -292,7 +292,7 @@ const SolutionsPage = () => {
               </div>
             </div>
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
-              <div className="flex flex-col items-center justify-center max-w-[1264px] w-full">
+              <div className="flex flex-col items-center justify-center max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
                     <Text
@@ -400,7 +400,7 @@ const SolutionsPage = () => {
               </List>
             </div>
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-start md:px-10 sm:px-5 px-[88px] py-[120px] w-auto md:w-full">
-              <div className="flex flex-col items-end justify-start max-w-[1264px] w-full">
+              <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-full">
                     <Text
@@ -418,7 +418,7 @@ const SolutionsPage = () => {
                   </Text>
                 </div>
               </div>
-              <div className="flex flex-col md:gap-10 gap-20 items-start justify-start max-w-[1264px] w-full">
+              <div className="flex flex-col md:gap-10 gap-20 items-start justify-start max-w-[1440px] w-full">
                 <div className="flex md:flex-col flex-row md:gap-10 gap-[120px] items-center justify-center w-full">
                   <div className="flex sm:flex-1 flex-col md:gap-10 gap-[60px] items-start justify-start w-[527px] sm:w-full">
                     <Text
@@ -443,7 +443,7 @@ const SolutionsPage = () => {
                     alt="group1000004155"
                   />
                 </div>
-                <div className="flex md:flex-col flex-row md:gap-10 gap-[120px] items-center justify-center max-w-[1264px] w-full">
+                <div className="flex md:flex-col flex-row md:gap-10 gap-[120px] items-center justify-center max-w-[1440px] w-full">
                   <div className="bg-gray-50 border border-gray-200_01 border-solid h-[400px] md:h-auto p-8 sm:px-5 relative rounded-lg w-[400px] sm:w-full">
                     <div className="absolute flex flex-col inset-x-[0] items-center justify-start mx-auto top-[8%] w-[82%] md:w-full">
                       <div className="flex flex-row items-start justify-evenly w-full">
@@ -535,7 +535,7 @@ const SolutionsPage = () => {
                     </Text>
                   </div>
                 </div>
-                <div className="flex md:flex-col flex-row md:gap-10 gap-[120px] items-center justify-center max-w-[1264px] w-full">
+                <div className="flex md:flex-col flex-row md:gap-10 gap-[120px] items-center justify-center max-w-[1440px] w-full">
                   <div className="flex sm:flex-1 flex-col md:gap-10 gap-[60px] items-start justify-start w-[527px] sm:w-full">
                     <Text
                       className="leading-[56.00px] max-w-[527px] md:max-w-full sm:text-4xl md:text-[38px] text-[40px] text-black-900_01"
@@ -666,7 +666,7 @@ const SolutionsPage = () => {
               </div>
             </div>
             <div className="flex flex-col items-center justify-start max-w-[1440px] py-[120px] w-full">
-              <div className="bg-blue-A700 flex flex-col items-start justify-start max-w-[1264px] md:px-10 sm:px-5 px-[88px] py-[120px] rounded-lg w-full">
+              <div className="bg-blue-A700 flex flex-col items-start justify-start max-w-[1440px] md:px-10 sm:px-5 px-[88px] py-[120px] rounded-lg w-full">
                 <div className="relative w-full">
                   <Text
                     className="leading-[48.00px] max-w-[1088px] md:max-w-full mx-auto sm:text-4xl md:text-[38px] text-[40px] text-white-A700 tracking-[-0.40px]"
@@ -695,7 +695,7 @@ const SolutionsPage = () => {
               </div>
             </div>
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
-              <div className="flex flex-col items-end justify-start max-w-[1264px] w-full">
+              <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
                     <Text
@@ -807,7 +807,7 @@ const SolutionsPage = () => {
               </div>
             </div>
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
-              <div className="flex flex-col items-end justify-start max-w-[1264px] w-full">
+              <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
                     <Text
@@ -825,7 +825,7 @@ const SolutionsPage = () => {
                   </Text>
                 </div>
               </div>
-              <div className="bg-gray-50 border border-gray-300 border-solid flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-start max-w-[1264px] md:pr-10 sm:pr-5 pr-[60px] rounded-lg shadow-bs3 w-full">
+              <div className="bg-gray-50 border border-gray-300 border-solid flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-start max-w-[1440px] md:pr-10 sm:pr-5 pr-[60px] rounded-lg shadow-bs3 w-full">
                 <div className="bg-blue-A700 flex flex-col h-[519px] md:h-auto items-start justify-between p-10 sm:px-5 rounded-bl-lg rounded-tl-lg">
                   <div className="flex flex-col h-[408px] md:h-auto items-start justify-between w-full">
                     <div className="flex flex-col items-start justify-start w-auto">
