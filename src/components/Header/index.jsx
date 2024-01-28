@@ -58,16 +58,6 @@ const Header = (props) => {
             </div>
           </div>
           <div className="flex flex-row gap-4 items-center justify-start w-60">
-            <div className="flex flex-col items-end justify-start w-full">
-              <div className="flex flex-col items-center justify-center px-4 py-2 w-auto">
-                <Text
-                  className="text-base text-gray-900 w-auto"
-                  size="txtInterSemiBold16Gray900"
-                >
-                  Log in
-                </Text>
-              </div>
-            </div>
             <Button
               className="cursor-pointer font-inter font-semibold min-w-[142px] text-base text-center"
               shape="round"
