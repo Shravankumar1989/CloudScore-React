@@ -115,7 +115,7 @@ const BlogPage = () => {
                           20 JUN 2023
                         </Text>
                       </div>
-                      <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-16 h-[460px] md:h-auto items-start justify-start p-8 sm:px-5 rounded-lg w-[292px]">
+                      <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-16 h-[460px] md:h-auto items-start justify-start p-8 sm:px-5 rounded-lg w-[292px]" id="homeSection">
                         <div className="flex flex-col gap-10 h-full items-start justify-start w-full">
                           <div className="flex flex-col items-start justify-start w-full">
                             <Text

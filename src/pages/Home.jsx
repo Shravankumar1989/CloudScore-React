@@ -1291,7 +1291,7 @@ const HomePage = () => {
                 </Text>
               </div>
             </div>
-            <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
+            <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full" id="homeSection">
               <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">

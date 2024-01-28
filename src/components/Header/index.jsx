@@ -4,6 +4,14 @@ import { Link } from "react-router-dom";
 import { Button, Img, Text } from "components";
 
 const Header = (props) => {
+  
+  const scrollToHome = () => {
+    const homeElement = document.getElementById('homeSection');
+    if (homeElement) {
+      homeElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <>
       <header className={props.className}>
@@ -66,6 +74,7 @@ const Header = (props) => {
               color="blue_A700_01"
               size="sm"
               variant="fill"
+              onClick={scrollToHome}
             >
               Book a Demo
             </Button>

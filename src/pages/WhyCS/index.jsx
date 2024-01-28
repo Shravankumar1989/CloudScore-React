@@ -704,7 +704,7 @@ const WhyCSPage = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute flex flex-col font-inter md:gap-10 gap-20 inset-x-[0] items-center justify-center max-w-[1440px] mx-auto py-[120px] top-[0] w-full">
+            <div className="absolute flex flex-col font-inter md:gap-10 gap-20 inset-x-[0] items-center justify-center max-w-[1440px] mx-auto py-[120px] top-[0] w-full" id="homeSection">
               <div className="flex flex-col items-end justify-start max-w-[1264px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
