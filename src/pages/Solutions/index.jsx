@@ -7,11 +7,18 @@ import HomeColumn from "components/HomeColumn";
 import HomeColumnlanguageThree from "components/HomeColumnlanguageThree";
 
 const SolutionsPage = () => {
+  const scrollToHome = () => {
+    const homeElement = document.getElementById('homeSection');
+    if (homeElement) {
+      homeElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   const homeColumnPropList = [
     {},
-    { mariotext: "|", firstname: "Last Name" },
-    { mariotext: "mario.papa@gmail.com", firstname: "Work Email" },
-    { mariotext: "Google Inc.", firstname: "Company" },
+    { firstname: "Last Name" },
+    { firstname: "Work Email" },
+    { firstname: "Company" },
   ];
 
   return (
@@ -51,6 +58,7 @@ const SolutionsPage = () => {
               color="blue_A700_01"
               size="sm"
               variant="fill"
+              onClick={scrollToHome}
             >
               Book a Demo
             </Button>
@@ -683,6 +691,7 @@ const SolutionsPage = () => {
                     color="white_A700"
                     size="sm"
                     variant="fill"
+                    onClick={scrollToHome}
                   >
                     Book a Demo
                   </Button>
@@ -848,13 +857,14 @@ const SolutionsPage = () => {
                     {homeColumnPropList.map((props, index) => (
                       <React.Fragment key={`HomeColumn${index}`}>
                         <HomeColumn
-                          className="border-b border-blue_gray-100 border-solid flex flex-1 flex-col items-start justify-start w-full"
                           {...props}
                         />
                       </React.Fragment>
                     ))}
                   </div>
-                  <HomeColumnlanguageThree className="border-b border-blue_gray-100 border-solid flex flex-col items-start justify-start w-full" />
+                  <div className="md:gap-5 gap-[90px] grid md:grid-cols-1 grid-cols-1 justify-left min-h-[auto] w-full">
+                    <HomeColumnlanguageThree/>
+                  </div>
                   <Button
                     className="cursor-pointer font-semibold min-w-[147px] text-base text-center"
                     shape="round"

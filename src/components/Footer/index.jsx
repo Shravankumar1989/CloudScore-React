@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { Img, Text } from "components";
 
@@ -48,7 +49,7 @@ const Footer = (props) => {
                           className="text-gray-200_01 text-sm w-auto"
                           size="txtRobotoRomanRegular14Gray20001"
                         >
-                          Why CloudScore
+                          <Link to="/whycs">Why CloudScore</Link>
                         </Text>
                       </div>
                       <div className="flex flex-col items-start justify-start w-auto">

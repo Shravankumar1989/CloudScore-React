@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from 'react';
 
 import { Button, Img, List, Text } from "components";
 import Footer from "components/Footer";
 import Header from "components/Header";
 import HomeColumn from "components/HomeColumn";
 import HomeColumnlanguageThree from "components/HomeColumnlanguageThree";
+import TextField from '@material-ui/core/TextField';
 
 const BlogPage = () => {
+
+  const [demoName, setDemoName] = useState('');
+  
   const homeColumnPropList = [
     {},
     { mariotext: "|", firstname: "Last Name" },
@@ -288,7 +292,7 @@ const BlogPage = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
+            <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full" id="homeSection">
               <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
@@ -330,13 +334,14 @@ const BlogPage = () => {
                     {homeColumnPropList.map((props, index) => (
                       <React.Fragment key={`HomeColumn${index}`}>
                         <HomeColumn
-                          className="border-b border-blue_gray-100 border-solid flex flex-1 flex-col items-start justify-start w-full"
                           {...props}
                         />
                       </React.Fragment>
                     ))}
                   </div>
-                  <HomeColumnlanguageThree className="border-b border-blue_gray-100 border-solid flex flex-col items-start justify-start w-full" />
+                  <div className="md:gap-5 gap-[90px] grid md:grid-cols-1 grid-cols-1 justify-left min-h-[auto] w-full">
+                    <HomeColumnlanguageThree/>
+                  </div>
                   <Button
                     className="cursor-pointer font-semibold min-w-[147px] text-base text-center"
                     shape="round"
