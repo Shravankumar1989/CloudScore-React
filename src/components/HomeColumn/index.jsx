@@ -21,7 +21,7 @@ const HomeColumn = (props) => {
           <div className="flex flex-col items-center justify-start py-3 w-full">
             <div className="flex flex-col items-left justify-start w-full">
               <TextField size="txtInterSemiBold18" className="text-gray-900 text-lg w-auto"
-                id="standard-basic" variant="standard" />                
+                id="standard-basic" variant="standard" label={props.mariotext}/>  
             </div>
           </div>
         </div>
