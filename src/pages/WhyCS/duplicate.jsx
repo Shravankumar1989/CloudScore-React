@@ -39,7 +39,7 @@ const BlogPage = () => {
         
         <div className="font-roboto h-[3229px] mt-[86px] md:px-5 relative w-full">
           <div className="flex flex-col font-inter items-center justify-start mb-[-566px] mx-auto w-auto md:w-full z-[1]">
-            <div className="h-[614px] max-w-6xl mx-auto md:px-5 relative w-full">
+            <div className="h-[614px] max-w-6xl mt-[68px] mx-auto md:px-5 relative w-full">
               <div className="bg-white-A700 border border-gray-300 border-solid flex flex-col h-24 items-center justify-start mb-[-4px] ml-[30px] mt-[148px] p-5 rounded-[50%] shadow-bs4 w-24 z-[1]">
                 <Img
                   className="h-[31px] my-[11px]"
