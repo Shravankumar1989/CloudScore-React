@@ -88,7 +88,7 @@ const SolutionsPage = () => {
                   <div className="bg-blue-A700 border border-gray-300 border-solid flex flex-col h-[120px] items-center justify-start p-2.5 rounded-[50%] shadow-bs w-[120px]">
                     <Img
                       className="h-[57px] md:h-auto my-5 object-cover w-[98%]"
-                      src="images/img_denlogoprode_48x64.png"
+                      src="images/img_denlogoprode_48x64.svg"
                       alt="denlogoprode_One"
                     />
                   </div>
@@ -332,7 +332,7 @@ const SolutionsPage = () => {
                   <div className="flex flex-col gap-4 items-start justify-start w-full">
                     <Text
                       className="leading-[31.00px] max-w-[352px] md:max-w-full text-[22px] text-gray-900 sm:text-lg md:text-xl"
-                      size="txtCircularStdBold22"
+                      size="txtInterBold20"
                     >
                       Comprehensive Multi-Cloud Management
                     </Text>
@@ -357,7 +357,7 @@ const SolutionsPage = () => {
                   <div className="flex flex-col gap-4 items-start justify-start w-full">
                     <Text
                       className="leading-[31.00px] max-w-[352px] md:max-w-full text-[22px] text-gray-900 sm:text-lg md:text-xl"
-                      size="txtCircularStdBold22"
+                      size="txtInterBold20"
                     >
                       <>
                         Industry-Agnostic <br />
@@ -388,7 +388,7 @@ const SolutionsPage = () => {
                   <div className="flex flex-col gap-4 items-start justify-start w-full">
                     <Text
                       className="leading-[31.00px] max-w-[352px] md:max-w-full text-[22px] text-gray-900 sm:text-lg md:text-xl"
-                      size="txtCircularStdBold22"
+                      size="txtInterBold20"
                     >
                       <>
                         Optimized Cloud Resources <br />
@@ -676,8 +676,8 @@ const SolutionsPage = () => {
             <div className="flex flex-col items-center justify-start max-w-[1440px] py-[120px] w-full">
               <div className="bg-blue-A700 flex flex-col items-start justify-start max-w-[1440px] md:px-10 sm:px-5 px-[88px] py-[120px] rounded-lg w-full">
                 <div className="relative w-full">
-                  <Text
-                    className="leading-[48.00px] max-w-[1088px] md:max-w-full mx-auto sm:text-4xl md:text-[38px] text-[40px] text-white-A700 tracking-[-0.40px]"
+                <Text
+                    className="leading-[48.00px] md:max-w-full mx-auto sm:text-4xl md:text-[38px] text-[40px] text-white-A700 tracking-[-0.40px]"
                     size="txtInterBold40"
                   >
                     <>
@@ -686,6 +686,7 @@ const SolutionsPage = () => {
                     </>
                   </Text>
                   <Button
+                    style={{marginTop:'30px'}}
                     className="!text-gray-900 cursor-pointer font-semibold min-w-[142px] mt-auto text-base text-center"
                     shape="round"
                     color="white_A700"
@@ -696,8 +697,8 @@ const SolutionsPage = () => {
                     Book a Demo
                   </Button>
                   <Img
-                    className="absolute h-48 inset-y-[0] my-auto object-cover right-[0] w-[331px] md:w-full"
-                    src="images/img_denlogoprode_48x64.png"
+                    className="absolute h-47 inset-y-[0] my-auto object-cover right-[0] w-[331px] md:w-full"
+                    src="images/img_denlogoprode_48x64.svg"
                     alt="denlogoprode_Three"
                   />
                 </div>

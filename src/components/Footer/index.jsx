@@ -20,7 +20,7 @@ const Footer = (props) => {
                   <div className="flex flex-col gap-6 items-start justify-start w-auto">
                     <Img
                       className="h-12 md:h-auto object-cover w-16 sm:w-full"
-                      src="images/img_denlogoprode_48x64.png"
+                      src="images/img_denlogoprode_48x64.svg"
                       alt="denlogoprode_One"
                     />
                     <Text

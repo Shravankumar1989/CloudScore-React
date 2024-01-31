@@ -52,7 +52,7 @@ const HomePage = () => {
                               alt="oracle"
                             />
                             <Img
-                              className="h-[104px] md:h-auto md:ml-[0] ml-[163px] object-cover"
+                              className="h-[104px] md:h-auto md:ml-[0] ml-[200px] object-cover"
                               src="images/img_azure.png"
                               alt="azure"
                             />
@@ -110,11 +110,13 @@ const HomePage = () => {
                               </div>
                             </div>
                           </div>
-                          <Img
-                            className="h-[100px] md:ml-[0] ml-[252px]"
-                            src="images/img_google.svg"
-                            alt="google"
-                          />
+                          <div className="flex md:flex-col flex-row md:gap-5 items-start justify-start w-full">
+                            <Img
+                              className="h-[100px] md:ml-[0] ml-[290px]"
+                              src="images/img_google.svg"
+                              alt="google"
+                            />
+                            </div>
                         </div>
                       </div>
                       <div className="absolute bottom-[10%] flex flex-col md:gap-10 gap-[157px] justify-start left-[11%] w-[65%]">
@@ -145,7 +147,7 @@ const HomePage = () => {
                             />
                             <div className="flex flex-row items-start justify-evenly w-full">
                               <div className="h-[122px] relative w-[94%]">
-                                <div className="absolute bg-white-A700 flex flex-col h-full inset-y-[0] items-center justify-start my-auto p-[9px] right-[0] rounded-[16px] shadow-bs w-[95%]">
+                                <div className="absolute bg-white-A700 flex flex-col h-full inset-y-[0] items-center justify-start my-auto p-[9px] right-[19px] rounded-[16px] shadow-bs w-[95%]">
                                   <div className="flex flex-col gap-2.5 items-center justify-start my-[7px] w-auto">
                                     <Img
                                       className="h-8 md:h-auto object-cover w-8"
@@ -451,7 +453,7 @@ const HomePage = () => {
                   <div className="flex flex-col gap-4 items-start justify-start w-full">
                     <Text
                       className="leading-[31.00px] max-w-[244px] md:max-w-full text-[22px] text-gray-900 sm:text-lg md:text-xl"
-                      size="txtCircularStdBold22"
+                      size="txtInterBold20"
                     >
                       <>
                         Generate Savings <br />
@@ -479,7 +481,7 @@ const HomePage = () => {
                   <div className="flex flex-col gap-4 items-start justify-start w-full">
                     <Text
                       className="leading-[31.00px] max-w-[244px] md:max-w-full text-[22px] text-gray-900 sm:text-lg md:text-xl"
-                      size="txtCircularStdBold22"
+                      size="txtInterBold20"
                     >
                       <>
                         Continual Efficiency <br />
@@ -508,7 +510,7 @@ const HomePage = () => {
                   <div className="flex flex-col gap-4 items-start justify-start w-full">
                     <Text
                       className="leading-[31.00px] max-w-[244px] md:max-w-full text-[22px] text-gray-900 sm:text-lg md:text-xl"
-                      size="txtCircularStdBold22"
+                      size="txtInterBold20"
                     >
                       Enhanced Accuracy and Productivity
                     </Text>
@@ -533,7 +535,7 @@ const HomePage = () => {
                   <div className="flex flex-col gap-4 items-start justify-start w-full">
                     <Text
                       className="leading-[31.00px] max-w-[244px] md:max-w-full text-[22px] text-gray-900 sm:text-lg md:text-xl"
-                      size="txtCircularStdBold22"
+                      size="txtInterBold20"
                     >
                       <>
                         Actionable Insights
@@ -880,7 +882,7 @@ const HomePage = () => {
               <div className="bg-blue-A700 flex flex-col items-start justify-start max-w-[1440px] md:px-10 sm:px-5 px-[88px] py-[120px] rounded-lg w-full">
                 <div className="relative w-full">
                   <Text
-                    className="leading-[48.00px] max-w-[1088px] md:max-w-full mx-auto sm:text-4xl md:text-[38px] text-[40px] text-white-A700 tracking-[-0.40px]"
+                    className="leading-[48.00px] md:max-w-full mx-auto sm:text-4xl md:text-[38px] text-[40px] text-white-A700 tracking-[-0.40px]"
                     size="txtInterBold40"
                   >
                     <>
@@ -889,6 +891,7 @@ const HomePage = () => {
                     </>
                   </Text>
                   <Button
+                    style={{marginTop:'30px'}}
                     className="!text-gray-900 cursor-pointer font-semibold min-w-[142px] mt-auto text-base text-center"
                     shape="round"
                     color="white_A700"
@@ -900,7 +903,7 @@ const HomePage = () => {
                   </Button>
                   <Img
                     className="absolute h-48 inset-y-[0] my-auto object-cover right-[0] w-[331px] md:w-full"
-                    src="images/img_denlogoprode_48x64.png"
+                    src="images/img_denlogoprode_48x64.svg"
                     alt="denlogoprode_Three"
                   />
                 </div>
@@ -1082,7 +1085,7 @@ const HomePage = () => {
                     <div className="flex flex-col gap-4 items-start justify-start w-full">
                       <Text
                         className="text-[22px] text-gray-900 sm:text-lg md:text-xl w-full"
-                        size="txtCircularStdBold22"
+                        size="txtInterBold20"
                       >
                         Cloud Providers
                       </Text>
@@ -1105,7 +1108,7 @@ const HomePage = () => {
                     <div className="flex flex-col gap-4 items-start justify-start w-full">
                       <Text
                         className="text-[22px] text-gray-900 sm:text-lg md:text-xl w-full"
-                        size="txtCircularStdBold22"
+                        size="txtInterBold20"
                       >
                         Skilled Professionals
                       </Text>
@@ -1141,7 +1144,7 @@ const HomePage = () => {
                     <div className="flex flex-col gap-4 items-start justify-start w-full">
                       <Text
                         className="text-[22px] text-gray-900 sm:text-lg md:text-xl w-full"
-                        size="txtCircularStdBold22"
+                        size="txtInterBold20"
                       >
                         Satisfaction Rate
                       </Text>
@@ -1172,7 +1175,7 @@ const HomePage = () => {
                     <div className="flex flex-col gap-4 items-start justify-start w-full">
                       <Text
                         className="text-[22px] text-gray-900 sm:text-lg md:text-xl w-full"
-                        size="txtCircularStdBold22"
+                        size="txtInterBold20"
                       >
                         Analized expenses
                       </Text>
@@ -1377,7 +1380,7 @@ const HomePage = () => {
                       <div className="flex flex-col gap-6 items-start justify-start w-auto">
                         <Img
                           className="h-12 md:h-auto object-cover w-16 sm:w-full"
-                          src="images/img_denlogoprode_48x64.png"
+                          src="images/img_denlogoprode_48x64.svg"
                           alt="denlogoprode_Two"
                         />
                         <Text

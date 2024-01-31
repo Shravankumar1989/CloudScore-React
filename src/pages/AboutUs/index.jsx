@@ -100,7 +100,7 @@ const AboutUsPage = () => {
                     <div className="flex flex-col gap-4 items-start justify-start w-full">
                       <Text
                         className="text-[22px] text-gray-900 sm:text-lg md:text-xl w-full"
-                        size="txtCircularStdBold22"
+                        size="txtInterBold20"
                       >
                         Cloud Providers
                       </Text>
@@ -123,7 +123,7 @@ const AboutUsPage = () => {
                     <div className="flex flex-col gap-4 items-start justify-start w-full">
                       <Text
                         className="text-[22px] text-gray-900 sm:text-lg md:text-xl w-full"
-                        size="txtCircularStdBold22"
+                        size="txtInterBold20"
                       >
                         Skilled Professionals
                       </Text>
@@ -159,7 +159,7 @@ const AboutUsPage = () => {
                     <div className="flex flex-col gap-4 items-start justify-start w-full">
                       <Text
                         className="text-[22px] text-gray-900 sm:text-lg md:text-xl w-full"
-                        size="txtCircularStdBold22"
+                        size="txtInterBold20"
                       >
                         Satisfaction Rate
                       </Text>
@@ -190,7 +190,7 @@ const AboutUsPage = () => {
                     <div className="flex flex-col gap-4 items-start justify-start w-full">
                       <Text
                         className="text-[22px] text-gray-900 sm:text-lg md:text-xl w-full"
-                        size="txtCircularStdBold22"
+                        size="txtInterBold20"
                       >
                         Analized expenses
                       </Text>

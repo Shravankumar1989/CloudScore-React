@@ -500,7 +500,7 @@ const WhyCSPage = () => {
             <div className="bg-blue-A700 flex flex-col items-start justify-start max-w-[1264px] mx-auto md:px-5 px-[88px] py-[120px] rounded-lg w-full">
               <div className="relative w-full">
                 <Text
-                  className="leading-[48.00px] max-w-[1088px] md:max-w-full mx-auto sm:text-4xl md:text-[38px] text-[40px] text-white-A700 tracking-[-0.40px]"
+                  className="leading-[48.00px] md:max-w-full mx-auto sm:text-4xl md:text-[38px] text-[40px] text-white-A700 tracking-[-0.40px]"
                   size="txtInterBold40"
                 >
                   <>
@@ -509,6 +509,7 @@ const WhyCSPage = () => {
                   </>
                 </Text>
                 <Button
+                  style={{marginTop:'30px'}}
                   className="!text-gray-900 cursor-pointer font-semibold min-w-[142px] mt-auto text-base text-center"
                   shape="round"
                   color="white_A700"
@@ -520,7 +521,7 @@ const WhyCSPage = () => {
                 </Button>
                 <Img
                   className="absolute h-48 inset-y-[0] my-auto object-cover right-[0] w-[331px] md:w-full"
-                  src="images/img_denlogoprode_48x64.png"
+                  src="images/img_denlogoprode_48x64.svg"
                   alt="denlogoprode_One"
                 />
               </div>
@@ -540,7 +541,7 @@ const WhyCSPage = () => {
                       <div className="flex flex-col gap-6 items-start justify-start w-auto">
                         <Img
                           className="h-12 md:h-auto object-cover w-16 sm:w-full"
-                          src="images/img_denlogoprode_48x64.png"
+                          src="images/img_denlogoprode_48x64.svg"
                           alt="denlogoprode_Two"
                         />
                         <Text
