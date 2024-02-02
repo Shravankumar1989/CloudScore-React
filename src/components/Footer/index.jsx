@@ -7,13 +7,8 @@ const Footer = (props) => {
   return (
     <>
       <footer className={props.className}>
-        <div className="flex flex-col relative w-full">
-          <Img
-            className="h-[801px] mx-auto object-cover w-full"
-            src="images/img_numcloud1.png"
-            alt="numcloudOne"
-          />
-          <div className="bg-black-900 flex flex-col items-center justify-center  mt-[-236px] mx-auto w-full z-[1]">
+
+          <div className="bg-black-900 flex flex-col items-center justify-center  mt-[500px] mx-auto w-full z-[1]">
             <div className="flex flex-col items-start justify-start max-w-[1440px] w-full">
               <div className="flex md:flex-col flex-row md:gap-10 gap-[152.1px] items-start justify-between pt-[120px] w-full">
                 <div className="flex flex-1 flex-col h-full items-start justify-start w-full">
@@ -191,7 +186,6 @@ const Footer = (props) => {
               </div>
             </div>
           </div>
-        </div>
       </footer>
     </>
   );
