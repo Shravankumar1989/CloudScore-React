@@ -8,7 +8,7 @@ const Footer = (props) => {
     <>
       <footer className={props.className}>
 
-          <div className="bg-black-900 flex flex-col items-center justify-center  mt-[550px] mx-auto w-full z-[1]">
+          <div className="bg-black-900 flex flex-col items-center justify-center  mt-[550px] mx-auto w-full z-[1]" >
             <div className="flex flex-col items-start justify-start max-w-[1440px] w-full">
               <div className="flex md:flex-col flex-row md:gap-10 gap-[152.1px] items-start justify-between pt-[120px] w-full">
                 <div className="flex flex-1 flex-col h-full items-start justify-start w-full">

@@ -292,8 +292,12 @@ const BlogPage = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full" id="homeSection">
-              <div className="flex flex-col items-end justify-start max-w-[1440px] w-full">
+            {/* bg-cover bg-no-repeat flex flex-col h-[787px] items-center justify-start p-[263px] md:px-10 sm:px-5 w-full
+
+            bg-cover bg-no-repeat flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full */}
+
+            <div className="bg-cover bg-no-repeat flex flex-col  items-center justify-start  py-[120px] md:px-10 sm:px-5 w-full " id="homeSection" style={{ backgroundImage:`url(${'images/img_numcloud1.png'})`,backgroundRepeat:"no-repeat" }}>
+              <div className="flex flex-col items-end justify-start max-w-[1440px] w-full" >
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
                   <div className="flex flex-col items-center justify-center w-auto">
                     <Text
@@ -304,14 +308,14 @@ const BlogPage = () => {
                     </Text>
                   </div>
                   <Text
-                    className="md:text-5xl sm:text-[42px] text-[56px] text-center text-gray-900 tracking-[-0.56px] w-auto"
+                    className="md:text-5xl sm:text-[42px] text-[56px] text-center text-gray-900 tracking-[-0.56px] w-auto mb-[100px]"
                     size="txtInterSemiBold56"
                   >
                     Get our Demo
                   </Text>
                 </div>
               </div>
-              <div className="bg-gray-50 border border-gray-300 border-solid flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-start max-w-[1440px] md:pr-10 sm:pr-5 pr-[60px] rounded-lg shadow-bs3 w-full">
+              <div className="bg-gray-50 border border-gray-300 border-solid flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-start max-w-[1440px] md:pr-10 sm:pr-5 pr-[60px] rounded-lg shadow-bs3 w-full ">
                 <div className="bg-blue-A700 flex flex-col h-[650px] md:h-auto items-start justify-between p-10 sm:px-5 rounded-bl-lg rounded-tl-lg" style={{zIndex: '1'}}>
                   <div className="flex flex-col h-[408px] md:h-auto items-start justify-between w-full">
                     <div className="flex flex-col items-start justify-start w-auto">
