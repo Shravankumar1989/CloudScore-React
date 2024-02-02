@@ -278,13 +278,14 @@ const BlogPage = () => {
               >
                 <div className="flex flex-row items-center justify-between w-[99%] md:w-full">
                   <TextField size="" className="text-gray-100 text-lg" InputProps={{ disableUnderline: true }}
-                    id="standard-basic" variant="standard" label="Email"/>                    
-                  <Text
-                    className="text-base text-black-900_01 tracking-[-0.29px] mt-[12px]"
-                    size="txtInterSemiBold16"
+                    id="standard-basic" variant="standard" label="Email"/>    
+                  <Button 
+                    className="cursor-pointer font-semibold min-w-[147px] text-base text-center text-black-900_01 tracking-[-0.29px] mt-[12px]"
+                    shape="round"                   
+                    variant="fill"
                   >
                     Subscribe
-                  </Text>
+                  </Button>
                 </div>
               </div>
             </div>
