@@ -65,7 +65,7 @@ const Footer = (props) => {
                           className="text-gray-200_01 text-sm w-auto"
                           size="txtRobotoRomanRegular14Gray20001"
                         >
-                          Blog
+                        <Link to="/blog">Blog</Link>
                         </Text>
                       </div>
                       <div className="flex flex-col items-start justify-start w-auto">

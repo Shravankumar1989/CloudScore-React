@@ -35,8 +35,7 @@ const BlogPage = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full">
-        <Header className="flex flex-col gap-2 items-center justify-center px-2 md:px-5 py-8 w-full" />
-        
+        <Header className="flex flex-col gap-2 items-center justify-center px-2 md:px-5 py-8 w-full" />        
         <div className="font-roboto h-[3229px] mt-[86px] md:px-5 relative w-full">
           <div className="flex flex-col font-inter items-center justify-start mb-[-566px] mx-auto w-auto md:w-full z-[1]">
             <div className="h-[614px] max-w-6xl mx-auto md:px-5 relative w-full">
@@ -112,7 +111,6 @@ const BlogPage = () => {
                 </div>
               </div>
             </div>
-
             <div className="flex flex-col items-start justify-start mt-[93px] w-auto md:w-full">
           <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
             <div className="flex flex-col items-end justify-start max-w-[1264px] mx-auto md:px-5 w-full">
@@ -243,13 +241,8 @@ const BlogPage = () => {
                         />
                       </div>
                     </div>
-                    <Img
-                      className="h-24 w-[400px]"
-                      src="images/img_frame1597882221.svg"
-                      alt="frame1597882220"
-                    />
+                   
                   </div>
-                  <div className="absolute bg-gradient2  bottom-[0] h-[134px] inset-x-[0] mx-auto w-full"></div>
                 </div>
                 <div className="absolute bottom-[8%] flex flex-col gap-2 inset-x-[0] items-start justify-start mx-auto w-full">
                   <Text
@@ -425,7 +418,6 @@ const BlogPage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="absolute bg-gradient2  bottom-[0] h-[126px] inset-x-[0] mx-auto w-full"></div>
                 </div>
                 <div className="absolute bottom-[8%] flex flex-col gap-2 inset-x-[0] items-start justify-start mx-auto w-full">
                   <Text

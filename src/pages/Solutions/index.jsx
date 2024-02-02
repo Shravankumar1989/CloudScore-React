@@ -263,7 +263,7 @@ const SolutionsPage = () => {
                 <div className="flex md:flex-col flex-row md:gap-10 gap-20 items-center justify-start max-w-[1487px] w-full">
                   <Img
                     className="h-11 w-[132px]"
-                    src="images/img_grid.svg"
+                    src="images/img_cloudfarelogosvg150px.svg"
                     alt="cloudflarelogos"
                   />
                   <Img
@@ -278,17 +278,17 @@ const SolutionsPage = () => {
                   />
                   <Img
                     className="h-9 w-[161px]"
-                    src="images/img_grid.svg"
+                    src="images/img_lottiflowlofosvsvg150px.svg"
                     alt="lottiflowlofosv"
                   />
                   <Img
                     className="h-11 w-36"
-                    src="images/img_grid.svg"
+                    src="images/img_zeplinlogosvg150px.svg"
                     alt="zeplinlogosvgFifteen"
                   />
                   <Img
                     className="h-11 w-[132px]"
-                    src="images/img_grid.svg"
+                    src="images/img_mixpanellogosvg150px.svg"
                     alt="mixpanellogosvg"
                   />
                   <Img
