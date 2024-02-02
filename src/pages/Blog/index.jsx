@@ -5,7 +5,7 @@ import Footer from "components/Footer";
 import Header from "components/Header";
 import HomeColumn from "components/HomeColumn";
 import HomeColumnlanguageThree from "components/HomeColumnlanguageThree";
-import TextField from '@material-ui/core/TextField';
+import { TextField } from '@mui/material';
 
 const BlogPage = () => {
 
@@ -273,18 +273,14 @@ const BlogPage = () => {
                 and tips right in your mailbox.
               </Text>
               <div
-                className="bg-cover bg-no-repeat bg-white-A700 flex flex-col h-[62px] items-center justify-end p-5 rounded-lg w-[45%] md:w-full"
+                className="bg-cover bg-no-repeat bg-white-A700 flex flex-col h-[68px] items-center justify-end p-5 rounded-lg w-[45%] md:w-full"
                 style={{ backgroundImage: "url('images/img_group5.svg')" }}
               >
                 <div className="flex flex-row items-center justify-between w-[99%] md:w-full">
+                  <TextField size="" className="text-gray-100 text-lg" InputProps={{ disableUnderline: true }}
+                    id="standard-basic" variant="standard" label="Email"/>                    
                   <Text
-                    className="text-base text-gray-800_90 tracking-[-0.16px]"
-                    size="txtInterRegular16Gray80090"
-                  >
-                    Email
-                  </Text>
-                  <Text
-                    className="text-base text-black-900_01 tracking-[-0.29px]"
+                    className="text-base text-black-900_01 tracking-[-0.29px] mt-[12px]"
                     size="txtInterSemiBold16"
                   >
                     Subscribe
