@@ -421,7 +421,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className="font-roboto h-[8121px] mt-[5px] md:px-5 relative w-full">
-          <div className="flex flex-col font-inter items-center justify-start mb-[-539px] mx-auto w-auto md:w-full z-[1]">
+          <div className="flex flex-col font-inter items-center justify-start mb-[-550px] mx-auto w-auto md:w-full z-[1]">
             <div className="flex flex-col md:gap-10 gap-20 items-center justify-center max-w-[1440px] py-[120px] w-full">
               <div className="flex flex-col items-center justify-center max-w-[1440px] w-full">
                 <div className="flex flex-col gap-8 items-center justify-center w-full">
