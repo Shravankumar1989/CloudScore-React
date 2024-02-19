@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../styles/homePageAnimation.css";
 
 import { Button, FloatingInput, Img, Line, List, Text } from "components";
 import Header from "components/Header";
@@ -8,6 +9,7 @@ import HomeColumn from "components/HomeColumn";
 import HomeColumnlanguageThree from "components/HomeColumnlanguageThree";
 
 const HomePage = () => {
+  
   const scrollToHome = () => {
     const homeElement = document.getElementById('homeSection');
     if (homeElement) {
@@ -48,12 +50,12 @@ const HomePage = () => {
                         <div className="absolute bottom-[1%] flex flex-col md:gap-10 gap-[153px] justify-start left-[8%] w-[76%]">
                           <div className="flex md:flex-col flex-row md:gap-5 items-start justify-start w-full">
                             <Img
-                              className="h-[104px] md:mt-0 mt-[99px]"
+                              className="h-[104px] md:mt-0 mt-[99px] img-oracle"
                               src="images/img_oracle.svg"
-                              alt="oracle"
+                              alt="oracle"                                                            
                             />
                             <Img
-                              className="h-[104px] md:h-auto md:ml-[0] ml-[200px] object-cover"
+                              className="h-[104px] md:h-auto md:ml-[0] ml-[200px] object-cover img-azure"
                               src="images/img_azure.png"
                               alt="azure"
                             />
@@ -61,7 +63,7 @@ const HomePage = () => {
                               <div className="bg-gray-300 h-2 mt-auto mx-auto rounded-bl-sm rounded-br-sm w-[2%]"></div>
                               <div className="absolute md:h-[125px] h-[134px] inset-[0] justify-center m-auto w-full">
                                 <div className="absolute bg-gray-300 bottom-[0] h-[9px] inset-x-[0] mx-auto rounded-bl-sm rounded-br-sm w-[2%]"></div>
-                                <div className="absolute bg-white-A700 flex flex-col inset-x-[0] items-center justify-end mx-auto p-[11px] rounded-[21px] shadow-bs top-[0] w-full">
+                                <div className="absolute bg-white-A700 flex flex-col inset-x-[0] items-center justify-end mx-auto p-[11px] rounded-[21px] shadow-bs top-[0] w-full img-totalcloudcost">
                                   <div className="flex flex-col gap-3.5 items-start justify-start mt-[5px] w-[91%] md:w-full">
                                     <Text
                                       className="capitalize text-gray-900 text-sm"
@@ -113,7 +115,7 @@ const HomePage = () => {
                           </div>
                           <div className="flex md:flex-col flex-row md:gap-5 items-start justify-start w-full">
                             <Img
-                              className="h-[100px] md:ml-[0] ml-[290px]"
+                              className="h-[100px] md:ml-[0] ml-[290px] img-google"
                               src="images/img_google.svg"
                               alt="google"
                             />
@@ -148,7 +150,7 @@ const HomePage = () => {
                             />
                             <div className="flex flex-row items-start justify-evenly w-full">
                               <div className="h-[122px] relative w-[94%]">
-                                <div className="absolute bg-white-A700 flex flex-col h-full inset-y-[0] items-center justify-start my-auto p-[9px] right-[19px] rounded-[16px] shadow-bs w-[95%]">
+                                <div className="absolute bg-white-A700 flex flex-col h-full inset-y-[0] mt-[40px] items-center justify-start my-auto p-[9px] right-[19px] rounded-[16px] shadow-bs w-[95%] img-artificialinte">
                                   <div className="flex flex-col gap-2.5 items-center justify-start my-[7px] w-auto">
                                     <Img
                                       className="h-8 md:h-auto object-cover w-8"
@@ -198,7 +200,7 @@ const HomePage = () => {
                     </div>
                   </div>
                   <Img
-                    className="absolute bottom-[14%] h-[104px] left-[10%]"
+                    className="absolute bottom-[10%] h-[104px] left-[10%] img-aws"
                     src="images/img_aws.svg"
                     alt="aws"
                   />
@@ -208,7 +210,7 @@ const HomePage = () => {
                       src="images/img_television_gray_300_13x8.svg"
                       alt="television_Two"
                     />
-                    <div className="bg-white-A700 flex flex-col gap-[13px] items-center justify-end p-2.5 rounded-[16px] shadow-bs w-[97%]">
+                    <div className="bg-white-A700 flex flex-col gap-[13px] items-center justify-end p-2.5 rounded-[16px] shadow-bs w-[97%] img-totalthismonth">
                       <div className="h-28 md:h-[91px] mt-[11px] relative w-28">
                         <div className="absolute md:h-20 h-[107px] inset-y-[0] left-[0] my-auto w-[107px]">
                           <div className="absolute md:h-20 h-[83px] left-[0] top-[0] w-[83px]">
@@ -331,14 +333,14 @@ const HomePage = () => {
                 <div className="flex flex-col h-full items-center justify-start m-auto w-[180px]">
                   <div className="bg-white-A700 border border-solid border-white-A700 flex flex-col h-[180px] items-center justify-start p-[18px] rounded-[24px] shadow-bs w-[180px]">
                     <Img
-                      className="h-[82px] md:h-auto my-[30px] object-cover w-full"
+                      className="h-[82px] md:h-auto my-[30px] object-cover w-full img-cloudscore"
                       src="images/img_denlogoprode.png"
                       alt="denlogoprode"
                     />
                   </div>
                 </div>
                 <Img
-                  className="absolute h-[196px] inset-[0] justify-center m-auto w-[196px]"
+                  className="absolute h-[196px] inset-[0] justify-center m-auto w-[196px] img-cloudscore-border"
                   src="images/img_group1000004151.svg"
                   alt="group1000004151"
                 />
@@ -349,7 +351,7 @@ const HomePage = () => {
                   src="images/img_television_gray_300_13x8.svg"
                   alt="television_Three"
                 />
-                <div className="bg-white-A700 flex flex-col items-center justify-start p-5 rounded-[16px] shadow-bs w-[89%]">
+                <div className="bg-white-A700 flex flex-col items-center justify-start p-5 rounded-[16px] shadow-bs w-[89%] img-totalcloudsaved">
                   <div className="flex flex-col gap-2.5 items-center justify-start w-auto">
                     <Text
                       className="capitalize text-gray-900 text-xl w-auto"
@@ -445,7 +447,7 @@ const HomePage = () => {
                 className="sm:flex-col flex-row gap-8 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 justify-start w-auto md:w-full"
                 orientation="horizontal"
               >
-                <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col gap-10 items-start justify-start p-6 sm:px-5 rounded-lg w-[292px]">
+                <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col gap-10 items-start justify-start p-6 sm:px-5 rounded-lg w-[335px]">
                   <Img
                     className="h-[76px] w-[76px]"
                     src="images/img_grid.svg"
@@ -471,7 +473,7 @@ const HomePage = () => {
                     </Text>
                   </div>
                 </div>
-                <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col gap-10 items-start justify-start p-6 sm:px-5 rounded-lg w-[292px]">
+                <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col gap-10 items-start justify-start p-6 sm:px-5 rounded-lg w-[335px]">
                   <div className="bg-blue-A700 flex flex-col h-[76px] items-center justify-end p-[15px] rounded-[50%] w-[76px]">
                     <Img
                       className="h-[43px]"
@@ -500,7 +502,7 @@ const HomePage = () => {
                     </Text>
                   </div>
                 </div>
-                <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col gap-10 items-start justify-start p-6 sm:px-5 rounded-lg w-[292px]">
+                <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col gap-10 items-start justify-start p-6 sm:px-5 rounded-lg w-[335px]">
                   <div className="bg-blue-A700 flex flex-col h-[76px] items-center justify-start p-[15px] rounded-[50%] w-[76px]">
                     <Img
                       className="h-[43px] w-[43px]"
@@ -525,7 +527,7 @@ const HomePage = () => {
                     </Text>
                   </div>
                 </div>
-                <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col gap-10 items-start justify-start p-6 sm:px-5 rounded-lg w-[292px]">
+                <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col gap-10 items-start justify-start p-6 sm:px-5 rounded-lg w-[335px]">
                   <div className="bg-blue-A700 flex flex-col h-[76px] items-center justify-end p-[15px] rounded-[50%] w-[76px]">
                     <Img
                       className="h-[43px] mt-0.5"
@@ -1076,7 +1078,7 @@ const HomePage = () => {
                   className="sm:flex-col flex-row gap-8 grid sm:grid-cols-1 grid-cols-2 w-[49%] md:w-full"
                   orientation="horizontal"
                 >
-                  <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-[72px] items-start justify-start sm:px-5 px-6 py-8 rounded-lg w-[292px]">
+                  <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-[72px] items-start justify-start sm:px-5 px-6 py-8 rounded-lg w-[335px]">
                     <Text
                       className="md:text-5xl text-[75px] text-blue-A700 w-auto"
                       size="txtInterSemiBold75"
@@ -1099,7 +1101,7 @@ const HomePage = () => {
                       </Text>
                     </div>
                   </div>
-                  <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-[72px] items-start justify-start sm:px-5 px-6 py-8 rounded-lg w-[292px]">
+                  <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-[72px] items-start justify-start sm:px-5 px-6 py-8 rounded-lg w-[335px]">
                     <Text
                       className="md:text-5xl text-[75px] text-blue-A700 w-auto"
                       size="txtInterSemiBold75"
@@ -1127,7 +1129,7 @@ const HomePage = () => {
                   className="sm:flex-col flex-row gap-8 grid sm:grid-cols-1 grid-cols-2 w-[49%] md:w-full"
                   orientation="horizontal"
                 >
-                  <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-[72px] items-start justify-start sm:px-5 px-6 py-8 rounded-lg w-[292px]">
+                  <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-[72px] items-start justify-start sm:px-5 px-6 py-8 rounded-lg w-[335px]">
                     <div className="flex flex-row gap-2 items-center justify-center w-auto">
                       <Text
                         className="md:text-5xl text-[75px] text-blue-A700 w-auto"
@@ -1158,7 +1160,7 @@ const HomePage = () => {
                       </Text>
                     </div>
                   </div>
-                  <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-[72px] items-start justify-start sm:px-5 px-6 py-8 rounded-lg w-[292px]">
+                  <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-[72px] items-start justify-start sm:px-5 px-6 py-8 rounded-lg w-[335px]">
                     <div className="flex flex-row gap-2 items-center justify-center w-auto">
                       <Text
                         className="md:text-5xl text-[75px] text-blue-A700 w-auto"
@@ -1213,7 +1215,7 @@ const HomePage = () => {
               </div>
               <div className="flex flex-col gap-10 items-center justify-center w-auto md:w-full">
                 <div className="flex md:flex-col flex-row gap-8 h-[460px] md:h-auto items-end justify-start w-auto md:w-full">
-                  <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-16 h-[460px] md:h-auto items-start justify-start p-8 sm:px-5 rounded-lg w-[616px] md:w-full">
+                  <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-16 h-[460px] md:h-auto items-start justify-start p-8 sm:px-5 rounded-lg w-[695px] md:w-full">
                     <div className="flex flex-col gap-10 h-full items-start justify-start w-full">
                       <div className="flex flex-col items-start justify-start w-full">
                         <Text
@@ -1236,14 +1238,13 @@ const HomePage = () => {
                       className="text-base text-gray-800_02 w-auto"
                       size="txtInterRegular16Gray80002"
                     >
-                      28 JUN 2023
                     </Text>
                   </div>
                   <List
                     className="sm:flex-col flex-row gap-8 grid sm:grid-cols-1 grid-cols-2 w-[49%] md:w-full"
                     orientation="horizontal"
                   >
-                    <div className="bg-blue-A700 border border-gray-300 border-solid flex flex-col md:gap-10 gap-16 h-[460px] md:h-auto items-start justify-start p-8 sm:px-5 rounded-lg w-[292px]">
+                    <div className="bg-blue-A700 border border-gray-300 border-solid flex flex-col md:gap-10 gap-16 h-[460px] md:h-auto items-start justify-start p-8 sm:px-5 rounded-lg w-[335px]">
                       <div className="flex flex-col gap-10 h-full items-start justify-start w-full">
                         <div className="flex flex-col items-start justify-start w-full">
                           <Text
@@ -1266,10 +1267,9 @@ const HomePage = () => {
                         className="text-base text-gray-200_01 w-auto"
                         size="txtInterRegular16Gray20001"
                       >
-                        20 JUN 2023
                       </Text>
                     </div>
-                    <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-16 h-[460px] md:h-auto items-start justify-start p-8 sm:px-5 rounded-lg w-[292px]">
+                    <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-16 h-[460px] md:h-auto items-start justify-start p-8 sm:px-5 rounded-lg w-[335px]">
                       <div className="flex flex-col gap-10 h-full items-start justify-start w-full">
                         <div className="flex flex-col items-start justify-start w-full">
                           <Text
@@ -1291,7 +1291,6 @@ const HomePage = () => {
                         className="text-base text-gray-800_02 w-auto"
                         size="txtInterRegular16Gray80002"
                       >
-                        19 JUN 2023
                       </Text>
                     </div>
                   </List>

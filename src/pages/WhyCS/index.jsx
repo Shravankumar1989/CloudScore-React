@@ -244,7 +244,7 @@ const BlogPage = () => {
                    
                   </div>
                 </div>
-                <div className="absolute bottom-[8%] flex flex-col gap-2 inset-x-[0] items-start justify-start mx-auto w-full">
+                <div className="flex flex-col gap-2 items-start justify-start mt-[230px] mx-auto w-full z-[1]">
                   <Text
                     className="text-gray-900 text-xl w-auto"
                     size="txtInterMedium20Gray900"
@@ -260,15 +260,15 @@ const BlogPage = () => {
                   </Text>
                 </div>
               </div>
-              <div className="bg-gray-50 border border-gray-200_01 border-solid flex flex-col md:h-auto p-8 sm:px-5 relative rounded-lg w-[400px] sm:w-full">
+              <div className="bg-gray-50 border border-gray-200_01 border-solid md:h-[336px] h-[400px] sm:h-[912px] p-8 sm:px-5 relative rounded-lg w-[400px] sm:w-full">
                 <div className="mx-auto w-full">
                   <div className="absolute flex flex-col gap-3 inset-x-[0] items-center justify-start mx-auto top-[0] w-auto">
                     <Img
-                      className="h-8 w-80"
+                      className="h-8 w-80 mt-[34px]"
                       src="images/img_frame1597882227.svg"
                       alt="frame1597882227"
                     />
-                    <div className="border border-gray-300 border-solid flex flex-col gap-2 items-center justify-center p-6 sm:px-5 rounded-lg w-[322px]">
+                    <div className=" border border-gray-300 border-solid flex flex-col gap-2 items-center justify-center p-6 sm:px-5 rounded-lg h-[180px] w-[322px]">
                       <Img
                         className="md:h-auto h-px object-cover w-8"
                         src="images/img_line145.png"
@@ -334,9 +334,9 @@ const BlogPage = () => {
                       </Text>
                     </div>
                   </div>
-                  <div className="absolute bg-gradient2  bottom-[0] h-[117px] inset-x-[0] mx-auto w-full"></div>
+                  <div className="absolute   bottom-[0] h-[117px] inset-x-[0] mx-auto w-full"></div>
                 </div>
-                <div className="flex flex-col gap-2 items-start justify-start mt-[-54px] mx-auto w-full z-[1]">
+                <div className="flex flex-col gap-2 items-start justify-start mt-[230px] mx-auto w-full z-[1]">
                   <Text
                     className="text-black-900_01 text-xl w-auto"
                     size="txtInterMedium20Black90001"
@@ -419,7 +419,7 @@ const BlogPage = () => {
                     </div>
                   </div>
                 </div>
-                <div className="absolute bottom-[8%] flex flex-col gap-2 inset-x-[0] items-start justify-start mx-auto w-full">
+                <div className="flex flex-col gap-2 items-start justify-start mt-[230px] mx-auto w-full z-[1]">
                   <Text
                     className="text-black-900_01 text-xl w-auto"
                     size="txtInterMedium20Black90001"
