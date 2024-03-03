@@ -1,9 +1,11 @@
 import React from "react";
+import "styles/solutionPageAnimation.css";
 
 import { Button, FloatingInput, Img, Line, List, Text } from "components";
 import Footer from "components/Footer";
 import Header from "components/Header";
 import HomeColumn from "components/HomeColumn";
+import SolutionVP from "components/SolutionVP"
 import HomeColumnlanguageThree from "components/HomeColumnlanguageThree";
 
 const SolutionsPage = () => {
@@ -65,21 +67,23 @@ const SolutionsPage = () => {
           </div>
         </div>
         <div className="h-[457px] md:h-[471px] sm:h-[940px] max-w-[1440px] mt-[27px] mx-auto md:px-5 relative w-full">
-          <div
+        <SolutionVP></SolutionVP>
+
+{/*           <div
             className="absolute bg-cover bg-no-repeat flex flex-col h-max inset-[0] items-start justify-center m-auto sm:px-5 px-[37px] w-[58%]"
             style={{ backgroundImage: "url('images/img_group2.svg')" }}
           >
             <div className="flex sm:flex-col flex-row sm:gap-5 items-start justify-start w-[73%] md:w-full">
               <div className="flex flex-col md:gap-10 gap-[241px] justify-start w-[32%] sm:w-full">
                 <div className="flex flex-row items-start justify-between w-full">
-                  <div className="bg-blue-A700_ab h-1.5 mb-[3px] rounded-[50%] w-1.5"></div>
-                  <div className="bg-blue-A700_90 h-1.5 mb-[3px] rounded-[50%] w-1.5"></div>
-                  <div className="bg-gray-900_90 h-1.5 mb-[3px] rounded-[50%] w-1.5"></div>
-                  <div className="bg-blue-A700 h-1.5 mt-[3px] rounded-[50%] w-1.5"></div>
+                  <div className="bg-blue-A700_ab h-1.5 mb-[3px] rounded-[50%] w-1.5 dotted-flow-line"></div>
+                  <div className="bg-blue-A700_90 h-1.5 mb-[3px] rounded-[50%] w-1.5 dotted-flow-line"></div>
+                  <div className="bg-gray-900_90 h-1.5 mb-[3px] rounded-[50%] w-1.5 dotted-flow-line"></div>
+                  <div className="bg-blue-A700 h-1.5 mt-[3px] rounded-[50%] w-1.5 dotted-flow-line"></div>
                 </div>
                 <div className="flex flex-row gap-[39px] items-center justify-start md:ml-[0] ml-[7px] w-[35%] md:w-full">
-                  <div className="bg-blue-A700_a2 h-1.5 rounded-[50%] w-1.5"></div>
-                  <div className="bg-blue-A700 h-1.5 rounded-[50%] w-1.5"></div>
+                  <div className="bg-blue-A700_a2 h-1.5 rounded-[50%] w-1.5 dotted-flow-line"></div>
+                  <div className="bg-blue-A700 h-1.5 rounded-[50%] w-1.5 dotted-flow-line"></div>
                 </div>
               </div>
               <div className="bg-blue-A700 h-1.5 mb-[27px] sm:ml-[0] ml-[26px] sm:mt-0 mt-[223px] rounded-[50%] w-1.5"></div>
@@ -90,7 +94,7 @@ const SolutionsPage = () => {
                       className="h-[57px] md:h-auto my-5 object-cover w-[98%]"
                       src="images/img_denlogoprode_48x64.svg"
                       alt="denlogoprode_One"
-                    />
+                    />                    
                   </div>
                 </div>
               </div>
@@ -246,7 +250,7 @@ const SolutionsPage = () => {
                 </div>
               </div>
             </div>
-          </List>
+          </List> */}
         </div>
         <div className="font-roboto h-[5779px] mt-[120px] md:px-5 relative w-full">
           <div className="flex flex-col font-inter items-center justify-start mb-[-557px] mx-auto w-auto md:w-full z-[1]">
@@ -326,7 +330,7 @@ const SolutionsPage = () => {
                 <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col gap-10 items-start justify-start p-6 sm:px-5 rounded-lg w-[400px] sm:w-full">
                   <Img
                     className="h-[76px] w-[76px]"
-                    src="images/img_grid.svg"
+                    src="images/img_multicloud_mgmt.svg"
                     alt="layerOne"
                   />
                   <div className="flex flex-col gap-4 items-start justify-start w-full">
@@ -523,7 +527,7 @@ const SolutionsPage = () => {
                         <Line className="bg-gradient1  h-8 mt-[88px] w-px" />
                       </div>
                     </div>
-                    <div className="absolute bg-gradient2  bottom-[8%] h-[77px] inset-x-[0] mx-auto w-full"></div>
+                    <div className="absolute bottom-[8%] h-[77px] inset-x-[0] mx-auto w-full"></div>
                   </div>
                   <div className="flex sm:flex-1 flex-col md:gap-10 gap-[60px] items-start justify-start w-[527px] sm:w-full">
                     <Text
@@ -668,7 +672,7 @@ const SolutionsPage = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="absolute bg-gradient2  bottom-[8%] h-[77px] inset-x-[0] mx-auto w-full"></div>
+                    <div className="absolute bottom-[8%] h-[77px] inset-x-[0] mx-auto w-full"></div>
                   </div>
                 </div>
               </div>
@@ -748,7 +752,6 @@ const SolutionsPage = () => {
                       className="text-base text-gray-800_02 w-auto"
                       size="txtInterRegular16Gray80002"
                     >
-                      28 JUN 2023
                     </Text>
                   </div>
                   <List
@@ -778,7 +781,6 @@ const SolutionsPage = () => {
                         className="text-base text-gray-200_01 w-auto"
                         size="txtInterRegular16Gray20001"
                       >
-                        20 JUN 2023
                       </Text>
                     </div>
                     <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col md:gap-10 gap-16 h-[460px] md:h-auto items-start justify-start p-8 sm:px-5 rounded-lg w-[292px]">
@@ -803,7 +805,6 @@ const SolutionsPage = () => {
                         className="text-base text-gray-800_02 w-auto"
                         size="txtInterRegular16Gray80002"
                       >
-                        19 JUN 2023
                       </Text>
                     </div>
                   </List>
@@ -836,11 +837,11 @@ const SolutionsPage = () => {
                 </div>
               </div>
               <div className="bg-gray-50 border border-gray-300 border-solid flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-start max-w-[1440px] md:pr-10 sm:pr-5 pr-[60px] rounded-lg shadow-bs3 w-full">
-                <div className="bg-blue-A700 flex flex-col h-[650px] md:h-auto items-start justify-between p-10 sm:px-5 rounded-bl-lg rounded-tl-lg">
+                <div className="bg-blue-A700 flex flex-col h-[600px] md:h-auto items-start justify-between p-10 sm:px-5 rounded-bl-lg rounded-tl-lg">
                   <div className="flex flex-col h-[408px] md:h-auto items-start justify-between w-full">
                     <div className="flex flex-col items-start justify-start w-auto">
                       <Text
-                        className="leading-[140.00%] max-w-[364px] md:max-w-full sm:text-3xl md:text-[32px] text-[34px] text-gray-100"
+                        className="leading-[140.00%] mt-[125px] max-w-[364px] md:max-w-full sm:text-3xl md:text-[32px] text-[34px] text-gray-100"
                         size="txtInterBold34"
                       >
                         <>
@@ -854,7 +855,7 @@ const SolutionsPage = () => {
                   </div>
                 </div>
                 <div className="flex flex-1 flex-col gap-10 h-full items-start justify-start py-[60px] w-full">
-                  <div className="md:gap-5 gap-[90px] grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
+                  <div className="md:gap-5 gap-[40px] grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
                     {homeColumnPropList.map((props, index) => (
                       <React.Fragment key={`HomeColumn${index}`}>
                         <HomeColumn

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../styles/homePageAnimation.css";
 
 
 import { Button, FloatingInput, Img, Line, List, Text } from "components";
@@ -7,7 +8,6 @@ import Header from "components/Header";
 import Footer from "components/Footer";
 import HomeColumn from "components/HomeColumn";
 import HomeColumnlanguageThree from "components/HomeColumnlanguageThree";
-import HomeVP from "components/HomeVP";
 
 const HomePage = () => {
   
@@ -29,8 +29,353 @@ const HomePage = () => {
     <>
       <div className="bg-white-A700 flex flex-col font-inter items-center justify-start mx-auto w-full">
         <div className="bg-white-A700 h-[1024px] sm:h-[539px] md:h-[794px] pb-[38px] md:px-5 relative w-full">
-          <div className="absolute flex sm:h-[539px] md:h-[726px] h-[932px] inset-[0] justify-center m-auto pt-[437px] w-full">
-            <HomeVP></HomeVP>
+          <div className="absolute flex sm:h-[539px] md:h-[726px] h-[932px] inset-[0] justify-end m-auto pt-[393px] w-full">
+            <div className="h-[539px] mt-auto mx-auto w-full">
+              <div className="h-[539px] m-auto w-full">
+                <div className="h-[539px] m-auto w-full">
+                  <div className="h-[539px] m-auto w-full">
+                    <div className="h-[539px] m-auto w-full">
+                      <div className="h-[539px] m-auto w-full">
+                        <div className="h-[539px] m-auto w-full">
+                          <Img
+                            className="h-[539px] m-auto"
+                            src="images/img_grid.svg"
+                            alt="grid"
+                          />
+                          <Img
+                            className="absolute h-[42px] inset-y-[0] left-[11%] my-auto rounded-lg"
+                            src="images/img_vector178.svg"
+                            alt="vector178"
+                          />
+                        </div>
+                        <div className="absolute bottom-[1%] flex flex-col md:gap-10 gap-[153px] justify-start left-[8%] w-[76%]">
+                          <div className="flex md:flex-col flex-row md:gap-5 items-start justify-start w-full">
+                            <Img
+                              className="h-[104px] md:mt-0 mt-[99px] img-oracle"
+                              src="images/img_oracle.svg"
+                              alt="oracle"                                                            
+                            />
+                            <Img
+                              className="h-[104px] md:h-auto md:ml-[0] ml-[200px] object-cover img-azure"
+                              src="images/img_azure.png"
+                              alt="azure"
+                            />
+                            <div className="flex md:h-[125px] h-[134px] justify-end md:ml-[0] ml-[496px] md:mt-0 mt-[92px] relative w-[22%] md:w-full">
+                              <div className="bg-gray-300 h-2 mt-auto mx-auto rounded-bl-sm rounded-br-sm w-[2%]"></div>
+                              <div className="absolute md:h-[125px] h-[134px] inset-[0] justify-center m-auto w-full">
+                                <div className="absolute bg-gray-300 bottom-[0] h-[9px] inset-x-[0] mx-auto rounded-bl-sm rounded-br-sm w-[2%]"></div>
+                                <div className="absolute bg-white-A700 flex flex-col inset-x-[0] items-center justify-end mx-auto p-[11px] rounded-[21px] shadow-bs top-[0] w-full img-totalcloudcost">
+                                  <div className="flex flex-col gap-3.5 items-start justify-start mt-[5px] w-[91%] md:w-full">
+                                    <Text
+                                      className="capitalize text-gray-900 text-sm"
+                                      size="txtInterMedium14"
+                                    >
+                                      Total Cloud Cost
+                                    </Text>
+                                    <Line className="bg-gray-200 h-px w-full" />
+                                    <div className="flex flex-row gap-2 items-start justify-between w-full">
+                                      <div className="flex flex-col gap-[3.54px] items-start justify-start w-auto">
+                                        <Text
+                                          className="capitalize text-base text-gray-900 w-auto"
+                                          size="txtInterBold16"
+                                        >
+                                          $15,234
+                                        </Text>
+                                        <div className="flex flex-row gap-[7.07px] items-center justify-start w-auto">
+                                          <Text
+                                            className="text-gray-400 text-xs w-auto"
+                                            size="txtInterRegular12"
+                                          >
+                                            This month
+                                          </Text>
+                                          <div className="bg-blue_gray-600_14 flex flex-row gap-[3.54px] items-center justify-center px-[7.07px] py-[3.54px] rounded-[13px] w-auto">
+                                            <Img
+                                              className="h-3 w-3"
+                                              src="images/img_iconarrowupoutlined.svg"
+                                              alt="iconarrowupoutl"
+                                            />
+                                            <Text
+                                              className="capitalize text-gray-900 text-xs w-auto"
+                                              size="txtInterRegular12Gray900"
+                                            >
+                                              2,8%
+                                            </Text>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <Img
+                                        className="h-[47px] md:h-auto object-cover"
+                                        src="images/img_frame114.png"
+                                        alt="frame114"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="flex md:flex-col flex-row md:gap-5 items-start justify-start w-full">
+                            <Img
+                              className="h-[100px] md:ml-[0] ml-[290px] img-google"
+                              src="images/img_google.svg"
+                              alt="google"
+                            />
+                            </div>
+                        </div>
+                      </div>
+                      <div className="absolute bottom-[10%] flex flex-col md:gap-10 gap-[157px] justify-start left-[11%] w-[65%]">
+                        <div
+                          className="bg-cover bg-no-repeat flex flex-col h-[51px] items-start justify-end p-2 rounded-[16px] w-full"
+                          style={{
+                            backgroundImage: "url('images/img_vector178.svg')",
+                          }}
+                        >
+                          <div className="bg-gradient  h-0.5 md:ml-[0] ml-[396px] mt-[33px] rounded-[1px] w-[4%]"></div>
+                        </div>
+                        <Img
+                          className="h-[21px] ml-10 md:ml-[0] rounded-lg"
+                          src="images/img_vector182.svg"
+                          alt="vector182"
+                        />
+                      </div>
+                    </div>
+                    <div className="absolute bottom-[9%] flex flex-col md:gap-10 gap-[99px] justify-start left-[13%] w-[22%]">
+                      <div className="flex flex-row gap-[97px] items-start justify-end ml-7 md:ml-[0] w-[91%] md:w-full">
+                        <div className="bg-gradient  h-0.5 mt-[79px] rounded-[1px] w-[13%]"></div>
+                        <div className="flex flex-col items-center justify-start w-[53%]">
+                          <div className="flex flex-col items-center justify-start w-full">
+                            <Img
+                              className="h-2"
+                              src="images/img_settings.svg"
+                              alt="settings"
+                            />
+                            <div className="flex flex-row items-start justify-evenly w-full">
+                              <div className="h-[122px] relative w-[94%]">
+                                <div className="absolute bg-white-A700 flex flex-col h-full inset-y-[0] mt-[40px] items-center justify-start my-auto p-[9px] right-[19px] rounded-[16px] shadow-bs w-[95%] img-artificialinte">
+                                  <div className="flex flex-col gap-2.5 items-center justify-start my-[7px] w-auto">
+                                    <Img
+                                      className="h-8 md:h-auto object-cover w-8"
+                                      src="images/img_artificialinte.png"
+                                      alt="artificialinte"
+                                    />
+                                    <Text
+                                      className="leading-[16.00px] max-w-[112px] md:max-w-full text-blue_gray-900 text-center text-xs"
+                                      size="txtInterMedium12"
+                                    >
+                                      <>
+                                        Machine-learning models to optimise{" "}
+                                        <br />
+                                        the Cost
+                                      </>
+                                    </Text>
+                                  </div>
+                                </div>
+                                <Img
+                                  className="absolute bottom-[39%] h-[13px] left-[0]"
+                                  src="images/img_television.svg"
+                                  alt="television"
+                                />
+                              </div>
+                              <Img
+                                className="h-[13px] mt-[61px]"
+                                src="images/img_television_gray_300.svg"
+                                alt="television_One"
+                              />
+                            </div>
+                            <Img
+                              className="h-2"
+                              src="images/img_thumbsup.svg"
+                              alt="thumbsup"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="bg-cover bg-no-repeat flex flex-col h-[30px] items-start justify-end p-2 rounded-[15px] w-3/5 md:w-full"
+                        style={{
+                          backgroundImage: "url('images/img_vector182.svg')",
+                        }}
+                      >
+                        <div className="bg-gradient  h-0.5 md:ml-[0] ml-[33px] mt-3 rounded-[1px] w-[22%]"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <Img
+                    className="absolute bottom-[10%] h-[104px] left-[10%] img-aws"
+                    src="images/img_aws.svg"
+                    alt="aws"
+                  />
+                  <div className="absolute bottom-[0] flex flex-row h-[204px] items-center justify-center right-[8%] w-[204px]">
+                    <Img
+                      className="h-[13px]"
+                      src="images/img_television_gray_300_13x8.svg"
+                      alt="television_Two"
+                    />
+                    <div className="bg-white-A700 flex flex-col gap-[13px] items-center justify-end p-2.5 rounded-[16px] shadow-bs w-[97%] img-totalthismonth">
+                      <div className="h-28 md:h-[91px] mt-[11px] relative w-28">
+                        <div className="absolute md:h-20 h-[107px] inset-y-[0] left-[0] my-auto w-[107px]">
+                          <div className="absolute md:h-20 h-[83px] left-[0] top-[0] w-[83px]">
+                            <div className="absolute bottom-[0] flex flex-col h-[57px] items-center justify-start right-[0] w-[57px]">
+                              <div className="flex flex-col h-[57px] items-center justify-start w-[57px]">
+                                <div className="bg-white-A700 flex flex-col h-[57px] items-center justify-center p-[5px] rounded-[28px] shadow-bs1 w-[57px]">
+                                  <Text
+                                    className="mt-[13px] text-blue_gray-900 text-xs"
+                                    size="txtInterMedium12"
+                                  >
+                                    $10,124
+                                  </Text>
+                                  <Text
+                                    className="mb-[7px] mt-0.5 text-[7px] text-blue_gray-400"
+                                    size="txtInterRegular7"
+                                  >
+                                    This month
+                                  </Text>
+                                </div>
+                              </div>
+                            </div>
+                            <Img
+                              className="absolute h-20 inset-y-[0] left-[0] my-auto rounded-[1px]"
+                              src="images/img_contrast.svg"
+                              alt="contrast"
+                            />
+                          </div>
+                          <Img
+                            className="absolute h-[45px] right-[0] rounded-[1px] top-[0]"
+                            src="images/img_contrast_blue_a700.svg"
+                            alt="contrast_One"
+                          />
+                          <Img
+                            className="absolute bottom-[0] h-[35px] left-[7%] rounded-[1px]"
+                            src="images/img_user.svg"
+                            alt="user"
+                          />
+                        </div>
+                        <Img
+                          className="absolute bottom-[0] h-[72px] right-[0] rounded-[1px]"
+                          src="images/img_mobile.svg"
+                          alt="mobile"
+                        />
+                      </div>
+                      <List
+                        className="sm:flex-col flex-row gap-6 grid grid-cols-2 justify-start w-auto"
+                        orientation="horizontal"
+                      >
+                        <div className="flex flex-col gap-2 items-start justify-start w-auto">
+                          <div className="flex flex-row gap-1 items-center justify-start w-auto">
+                            <div className="bg-blue-A700 h-1 rounded-[50%] w-1"></div>
+                            <Text
+                              className="text-gray-900 text-xs w-auto"
+                              size="txtInterRegular12Gray900"
+                            >
+                              Oracle Cloud
+                            </Text>
+                          </div>
+                          <div className="flex flex-row gap-1 items-center justify-start w-auto">
+                            <div className="bg-indigo-A700 h-1 rounded-[50%] w-1"></div>
+                            <Text
+                              className="text-blue_gray-900_02 text-xs w-auto"
+                              size="txtInterRegular12Bluegray90002"
+                            >
+                              Google Cloud
+                            </Text>
+                          </div>
+                        </div>
+                        <div className="flex flex-col gap-2 items-start justify-start w-auto">
+                          <div className="flex flex-row gap-1 items-center justify-start w-auto">
+                            <div className="bg-blue-A700_66 h-1 rounded-[50%] w-1"></div>
+                            <Text
+                              className="text-gray-900 text-xs w-auto"
+                              size="txtInterRegular12Gray900"
+                            >
+                              AWS
+                            </Text>
+                          </div>
+                          <div className="flex flex-row gap-1 items-center justify-start w-auto">
+                            <div className="bg-blue-A700_19 h-1 rounded-[50%] w-1"></div>
+                            <Text
+                              className="text-gray-900 text-xs w-auto"
+                              size="txtInterRegular12Gray900"
+                            >
+                              Azure
+                            </Text>
+                          </div>
+                        </div>
+                      </List>
+                    </div>
+                  </div>
+                </div>
+                <Img
+                  className="absolute bottom-[20%] h-9 right-[21%] rounded-lg"
+                  src="images/img_vector210.svg"
+                  alt="vector210"
+                />
+              </div>
+              <div
+                className="absolute bg-cover bg-no-repeat bottom-[19%] flex flex-col h-11 items-end justify-end p-2 right-[21%] rounded-[16px] w-[29%]"
+                style={{ backgroundImage: "url('images/img_vector210.svg')" }}
+              >
+                <div className="bg-gradient  h-0.5 mr-4 mt-[26px] rounded-[1px] w-[6%]"></div>
+              </div>
+            </div>
+            <div className="absolute bottom-[6%] flex md:flex-col flex-row md:gap-5 items-end justify-start right-[24%] w-[48%]">
+              <div className="flex flex-col md:gap-10 gap-[131px] items-start justify-start mb-12 w-[2%] md:w-full">
+                <Img
+                  className="h-[78px] md:h-auto object-cover"
+                  src="images/img_group1000004164.png"
+                  alt="group1000004164"
+                />
+                <Img
+                  className="h-[78px] md:h-auto object-cover"
+                  src="images/img_group1000004163.png"
+                  alt="group1000004163"
+                />
+              </div>
+              <div className="h-[196px] md:h-[280px] mb-[84px] md:ml-[0] ml-[201px] md:mt-0 mt-[55px] relative w-[196px]">
+                <div className="flex flex-col h-full items-center justify-start m-auto w-[180px]">
+                  <div className="bg-white-A700 border border-solid border-white-A700 flex flex-col h-[180px] items-center justify-start p-[18px] rounded-[24px] shadow-bs w-[180px]">
+                    <Img
+                      className="h-[82px] md:h-auto my-[30px] object-cover w-full img-cloudscore"
+                      src="images/img_denlogoprode.png"
+                      alt="denlogoprode"
+                    />
+                  </div>
+                </div>
+                <Img
+                  className="absolute h-[196px] inset-[0] justify-center m-auto w-[196px] img-cloudscore-border"
+                  src="images/img_group1000004151.svg"
+                  alt="group1000004151"
+                />
+              </div>
+              <div className="flex flex-row items-center justify-center md:ml-[0] ml-[89px] md:mt-0 mt-[239px] w-[21%] md:w-full">
+                <Img
+                  className="h-[13px]"
+                  src="images/img_television_gray_300_13x8.svg"
+                  alt="television_Three"
+                />
+                <div className="bg-white-A700 flex flex-col items-center justify-start p-5 rounded-[16px] shadow-bs w-[89%] img-totalcloudsaved">
+                  <div className="flex flex-col gap-2.5 items-center justify-start w-auto">
+                    <Text
+                      className="capitalize text-gray-900 text-xl w-auto"
+                      size="txtInterBold20"
+                    >
+                      $5,640
+                    </Text>
+                    <Text
+                      className="capitalize text-blue_gray-900 text-xs w-auto"
+                      size="txtInterMedium12"
+                    >
+                      Total saved
+                    </Text>
+                  </div>
+                </div>
+                <Img
+                  className="h-[13px]"
+                  src="images/img_television_13x8.svg"
+                  alt="television_Four"
+                />
+              </div>
+              <div className="bg-gradient  h-0.5 mb-11 md:ml-[0] ml-[22px] md:mt-0 mt-[289px] rounded-[1px] w-[4%]"></div>
+            </div>
           </div>
           <div className="absolute flex flex-col inset-x-[0] items-center justify-start mx-auto top-[0] w-full">
             <div className="bg-white-A700 border border-gray-300 border-solid flex flex-col items-center justify-start pb-[106px] rounded-bl-[40px] rounded-br-[40px] shadow-bs2 w-full">
@@ -106,7 +451,7 @@ const HomePage = () => {
                 <div className="bg-gray-50 border border-gray-300 border-solid flex flex-col gap-10 items-start justify-start p-6 sm:px-5 rounded-lg w-[335px]">
                   <Img
                     className="h-[76px] w-[76px]"
-                    src="images/img_desktop.svg"
+                    src="images/img_grid.svg"
                     alt="layerOne"
                   />
                   <div className="flex flex-col gap-4 items-start justify-start w-full">
@@ -387,7 +732,7 @@ const HomePage = () => {
                         <Line className="bg-gradient1  h-8 mt-[88px] w-px" />
                       </div>
                     </div>
-                    <div className="bottom-[8%] h-[77px] inset-x-[0] mx-auto w-full"></div>
+                    <div className="absolute bg-gradient2  bottom-[8%] h-[77px] inset-x-[0] mx-auto w-full"></div>
                   </div>
                   <div className="flex sm:flex-1 flex-col md:gap-10 gap-[60px] items-start justify-start w-[527px] sm:w-full">
                     <Text

@@ -1,0 +1,28 @@
+.dotted-flow-line {
+    display: flex;
+    justify-content: space-between;
+    animation: border-dance .5s linear infinite;
+    width: 4%;
+  }
+
+  .centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .responsive-video {
+    max-width: 100%; /* Limit the video's maximum width to 80% of its container */
+    max-height: 100vh; /* Limit the video's maximum height to 80% of the viewport height */
+    object-fit: contain; /* Ensures the video maintains its aspect ratio */
+  }
+
+  @keyframes border-dance {
+    0% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+  }

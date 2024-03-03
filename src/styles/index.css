@@ -7,35 +7,35 @@ body {
   margin: 0;
   padding: 0;
 }
-.dhiwise-code,
-.dhiwise-navigation {
+.cloudscore-code,
+.cloudscore-navigation {
   min-height: 100%;
 }
 .common-pointer {
   cursor: pointer;
 }
-.dhiwise-navigation {
+.cloudscore-navigation {
   padding: 20px;
   background-color: #232323;
 }
-.dhiwise-navigation h1 {
+.cloudscore-navigation h1 {
   color: white;
 }
-.dhiwise-navigation .headline {
+.cloudscore-navigation .headline {
   font-size: 14px;
   margin-bottom: 10px;
   color: white;
 }
-.dhiwise-navigation ul {
+.cloudscore-navigation ul {
   padding: 0;
 }
-.dhiwise-navigation ul li {
+.cloudscore-navigation ul li {
   list-style: none;
   margin-right: 20px;
   font-size: 16px;
   font-weight: bold;
 }
-.dhiwise-navigation a {
+.cloudscore-navigation a {
   color: #132cdc;
 }
 table {

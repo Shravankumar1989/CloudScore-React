@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 
-import { Button, Img, List, SelectBox, Text } from "components";
+import { Button, Img, SelectBox, Text } from "components";
 import Footer from "components/Footer";
 import Header from "components/Header";
 import HomeColumn from "components/HomeColumn";
 import HomeColumnlanguageThree from "components/HomeColumnlanguageThree";
-import TextField from '@material-ui/core/TextField';
 
 const dropdownOptionsList = [
   { label: "Option1", value: "option1" },
@@ -15,8 +14,6 @@ const dropdownOptionsList = [
 ];
 
 const BlogPage = () => {
-
-  const [demoName, setDemoName] = useState('');
 
   const scrollToHome = () => {
     const homeElement = document.getElementById('homeSection');
@@ -550,11 +547,11 @@ const BlogPage = () => {
                 </div>
               </div>
               <div className="bg-gray-50 border border-gray-300 border-solid flex md:flex-col flex-row md:gap-10 gap-[60px] items-start justify-start max-w-[1440px] md:pr-10 sm:pr-5 pr-[60px] rounded-lg shadow-bs3 w-full">
-                <div className="bg-blue-A700 flex flex-col h-[650px] md:h-auto items-start justify-between p-10 sm:px-5 rounded-bl-lg rounded-tl-lg" style={{zIndex: '1'}}>
+                <div className="bg-blue-A700 flex flex-col h-[600px] md:h-auto items-start justify-between p-10 sm:px-5 rounded-bl-lg rounded-tl-lg" style={{zIndex: '1'}}>
                   <div className="flex flex-col h-[408px] md:h-auto items-start justify-between w-full">
                     <div className="flex flex-col items-start justify-start w-auto">
                       <Text
-                        className="leading-[140.00%] max-w-[364px] md:max-w-full sm:text-3xl md:text-[32px] text-[34px] text-gray-100"
+                        className="leading-[140.00%] mt-[125px] max-w-[364px] md:max-w-full sm:text-3xl md:text-[32px] text-[34px] text-gray-100"
                         size="txtInterBold34"
                       >
                         <>
@@ -568,7 +565,7 @@ const BlogPage = () => {
                   </div>
                 </div>
                 <div className="flex flex-1 flex-col gap-10 h-full items-start justify-start py-[60px] w-full">
-                  <div className="md:gap-5 gap-[90px] grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
+                  <div className="md:gap-5 gap-[40px] grid md:grid-cols-1 grid-cols-2 justify-center min-h-[auto] w-full">
                     {homeColumnPropList.map((props, index) => (
                       <React.Fragment key={`HomeColumn${index}`}>
                         <HomeColumn

@@ -111,7 +111,7 @@ const Footer = (props) => {
                       </Text>
                     </div>
                     <div className="flex flex-col items-start justify-start w-full">
-                      <div className="flex flex-col items-start justify-start md:pr-10 sm:pr-5 pr-[158px] w-full">
+                      <div className="flex flex-col items-start justify-start md:pr-10 sm:pr-5 w-full">
                         <Text
                           className="leading-[140.00%] text-gray-200_01 text-sm"
                           size="txtRobotoRomanRegular14Gray20001"
@@ -119,7 +119,7 @@ const Footer = (props) => {
                           <>
                             United States
                             <br />
-                            Stevens Creek Blvd, Suite 100 <br />
+                            Stevens Creek Blvd, Suite 100
                             Cupertino, CA 95014
                           </>
                         </Text>

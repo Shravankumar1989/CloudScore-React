@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Img, List, Text } from "components";
+import {Img, List, Text } from "components";
 import Footer from "components/Footer";
 import Header from "components/Header";
 
@@ -420,7 +420,7 @@ const AboutUsPage = () => {
                       className="md:ml-[0] ml-[62px] md:text-5xl text-8xl text-black-900_01 text-center"
                       size="txtInterSemiBold96"
                     >
-                      + 10
+                      10
                     </Text>
                   </div>
                 </div>
